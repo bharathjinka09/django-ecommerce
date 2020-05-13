@@ -70,6 +70,10 @@ def updateItem(request):
     return JsonResponse('Item was added', safe=False)
 
 
+# from django.views.decorators.csrf import csrf_exempt
+
+
+# @csrf_exempt
 def processOrder(request):
     transaction_id = datetime.datetime.now().timestamp()
     data = json.loads(request.body)
