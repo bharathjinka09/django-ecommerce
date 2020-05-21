@@ -32,16 +32,59 @@
     <br />
 
     <div class="box-element">
-      <div class="cart-row">
+      <!-- <div class="cart-row">
         <div style="flex: 2;"></div>
         <div style="flex: 2;"><strong>Item</strong></div>
         <div style="flex: 1;"><strong>Price</strong></div>
         <div style="flex: 1;"><strong>Quantity</strong></div>
         <div style="flex: 1;"><strong>Total</strong></div>
-      </div>
+      </div> -->
 
+
+      <table class="table table-responsive">
+        <tr>
+          <th></th>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
       {% for item in items %}
-      <div class="cart-row">
+        <tr>
+          <td>
+            <img class="row-image" src="{{item.product.imageURL}}" />
+          </td>
+          <td>
+            <p>{{item.product.name}}</p>
+          </td>
+          <td>
+            <p>₹{{item.product.price|floatformat:2}}</p>
+          </td>
+          <td>
+            <p class="quantity">{{item.quantity}}</p>
+            <div class="quantity">
+              <img data-product="{{item.product.id}}"
+                   data-action="add"
+                   class="chg-quantity update-cart"
+                   src="{% static  'images/arrow-up.png' %}"
+              />
+
+              <img data-product="{{item.product.id}}"
+                   data-action="remove"
+                   class="chg-quantity update-cart"
+                   src="{% static  'images/arrow-down.png' %}"
+              />
+            </div>
+          </td>
+          <td>
+            <p>₹{{item.get_total}}</p>
+          </td>
+        </tr>
+
+      {% endfor %}
+
+      </table>
+      <!-- <div class="cart-row">
         <div style="flex: 2;">
           <img class="row-image" src="{{item.product.imageURL}}" />
         </div>
@@ -64,8 +107,7 @@
           </div>
         </div>
         <div style="flex: 1;"><p>₹{{item.get_total}}</p></div>
-      </div>
-      {% endfor %}
+      </div> -->
     </div>
   </div>
   {% endblock content %}

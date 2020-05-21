@@ -74,6 +74,19 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="{% url 'store' %}">Ecom</a>
+      <div class="row">
+
+        <a href="{% url 'cart' %}">
+          <div class="col">
+              <img id="cart-icon" src="{% static 'images/cart.png' %}" />
+              </div>
+          <div class="col">
+
+              <span id="cart-total">{{cartItems}}</span>
+            </div>
+        </a>
+      </div>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -98,10 +111,10 @@
         <div class="form-inline my-2 my-lg-0">
           <a href="#" class="btn btn-warning">Login</a>
 
-          <a href="{% url 'cart' %}">
+          <!-- <a href="{% url 'cart' %}">
             <img id="cart-icon" src="{% static 'images/cart.png' %}" />
-          </a>
-          <p id="cart-total">{{cartItems}}</p>
+          </a> -->
+          <!-- <p id="cart-total">{{cartItems}}</p> -->
         </div>
       </div>
     </nav>
@@ -109,6 +122,9 @@
     <div class="container">
       <br />
       {% block content %} {% endblock content %}
+      <br>
+      <footer>Copyright. All rights reserved</footer>
+      <br>
     </div>
 
     <script
