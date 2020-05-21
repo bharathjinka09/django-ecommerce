@@ -1,0 +1,1135 @@
+DEBUG 2020-05-21 16:51:54,557 utils 18073 140679458346752 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:21:54.553474' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:21:54.553474', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:51:54,560 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:54,563 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:54,565 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:51:54,568 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:51:54,582 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product"; args=()
+INFO 2020-05-21 16:51:54,585 basehttp 18073 140679458346752 "GET / HTTP/1.1" 200 7522
+DEBUG 2020-05-21 16:51:55,415 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/messages/utils.py first seen with mtime 1588402484.424132
+DEBUG 2020-05-21 16:51:55,415 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1588402484.424132
+DEBUG 2020-05-21 16:51:55,416 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/loaders/__init__.py first seen with mtime 1588402484.6681416
+DEBUG 2020-05-21 16:51:55,416 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1588402484.424132
+DEBUG 2020-05-21 16:51:55,416 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/loaders/base.py first seen with mtime 1588402484.6681416
+DEBUG 2020-05-21 16:51:55,416 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/messages/storage/fallback.py first seen with mtime 1588402484.424132
+DEBUG 2020-05-21 16:51:55,419 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/conf/locale/en/formats.py first seen with mtime 1588402483.800108
+DEBUG 2020-05-21 16:51:55,419 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1588402484.424132
+DEBUG 2020-05-21 16:51:55,420 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/messages/storage/base.py first seen with mtime 1588402484.424132
+DEBUG 2020-05-21 16:51:55,421 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1588402484.1241205
+DEBUG 2020-05-21 16:51:55,423 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/loaders/filesystem.py first seen with mtime 1588402484.6681416
+DEBUG 2020-05-21 16:51:55,423 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/loaders/app_directories.py first seen with mtime 1588402484.6681416
+DEBUG 2020-05-21 16:51:55,424 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/conf/locale/en/__init__.py first seen with mtime 1588402483.800108
+DEBUG 2020-05-21 16:51:55,425 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1588402484.496135
+DEBUG 2020-05-21 16:51:55,426 autoreload 18073 140679574746880 File /home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context_processors.py first seen with mtime 1588402484.6641414
+DEBUG 2020-05-21 16:51:56,547 utils 18073 140679458346752 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:21:56.545516' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:21:56.545516', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:51:56,548 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:56,550 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:56,551 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:56,554 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:51:56,556 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE ("store_orderitem"."order_id" = 4 AND "store_orderitem"."product_id" = 1) LIMIT 21; args=(4, 1)
+DEBUG 2020-05-21 16:51:56,557 utils 18073 140679458346752 (0.000) BEGIN; args=None
+DEBUG 2020-05-21 16:51:56,559 utils 18073 140679458346752 (0.000) INSERT INTO "store_orderitem" ("product_id", "order_id", "quantity", "date_added") VALUES (1, 4, 0, '2020-05-21 11:21:56.558688'); args=[1, 4, 0, '2020-05-21 11:21:56.558688']
+DEBUG 2020-05-21 16:51:56,704 utils 18073 140679458346752 (0.067) UPDATE "store_orderitem" SET "product_id" = 1, "order_id" = 4, "quantity" = 1, "date_added" = '2020-05-21 11:21:56.558688' WHERE "store_orderitem"."id" = 16; args=(1, 4, 1, '2020-05-21 11:21:56.558688', 16)
+INFO 2020-05-21 16:51:56,705 basehttp 18073 140679458346752 "POST /update_item/ HTTP/1.1" 200 16
+DEBUG 2020-05-21 16:51:56,746 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:21:56.739131' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:21:56.739131', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:51:56,751 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:56,756 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:56,764 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:51:56,770 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:51:56,783 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product"; args=()
+INFO 2020-05-21 16:51:56,788 basehttp 18073 140679458346752 "GET / HTTP/1.1" 200 7522
+DEBUG 2020-05-21 16:51:59,980 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:21:59.974830' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:21:59.974830', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:51:59,984 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:59,988 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:51:59,993 utils 18073 140679458346752 (0.001) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:51:59,999 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:00,016 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:00,022 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:00,028 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:00,032 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:00,035 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:00,040 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:00,045 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:00,046 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:00,048 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:00,049 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:00,050 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:00,052 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4c20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d2d4e50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27e6c32d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d4d50>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d2d45d0>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0dd0>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c237250>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+INFO 2020-05-21 16:52:00,058 basehttp 18073 140679458346752 "GET /cart/ HTTP/1.1" 200 7343
+DEBUG 2020-05-21 16:52:04,116 utils 18073 140679458346752 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:22:04.114872' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:22:04.114872', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:52:04,118 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,119 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,121 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,122 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:52:04,124 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE ("store_orderitem"."order_id" = 4 AND "store_orderitem"."product_id" = 1) LIMIT 21; args=(4, 1)
+DEBUG 2020-05-21 16:52:04,174 utils 18073 140679458346752 (0.049) UPDATE "store_orderitem" SET "product_id" = 1, "order_id" = 4, "quantity" = 2, "date_added" = '2020-05-21 11:21:56.558688' WHERE "store_orderitem"."id" = 16; args=(1, 4, 2, '2020-05-21 11:21:56.558688', 16)
+INFO 2020-05-21 16:52:04,175 basehttp 18073 140679458346752 "POST /update_item/ HTTP/1.1" 200 16
+DEBUG 2020-05-21 16:52:04,217 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:22:04.210443' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:22:04.210443', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:52:04,222 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,227 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,233 utils 18073 140679458346752 (0.001) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:52:04,240 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:04,261 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:04,265 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:04,268 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,272 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:04,275 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:04,276 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:04,278 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:04,279 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:04,280 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:04,281 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:04,282 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:52:04,283 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4f80>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27d379b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d2fb050>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27d379750>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27d379210>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27d2ce950>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146750>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+INFO 2020-05-21 16:52:04,285 basehttp 18073 140679458346752 "GET /cart/ HTTP/1.1" 200 7343
+DEBUG 2020-05-21 16:52:06,001 utils 18073 140679458346752 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:22:05.998163' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:22:05.998163', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:52:06,002 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:06,005 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:06,007 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:52:06,010 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,017 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,019 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:06,020 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,023 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,025 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:06,027 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,029 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:06,030 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,031 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:52:06,032 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:52:06,033 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+INFO 2020-05-21 16:52:06,035 basehttp 18073 140679458346752 "GET /checkout/ HTTP/1.1" 200 10847
+DEBUG 2020-05-21 16:53:06,666 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:06.659013' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:06.659013', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:06,671 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:06,676 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:06,683 utils 18073 140679458346752 (0.001) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:06,691 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:06,705 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product"; args=()
+INFO 2020-05-21 16:53:06,714 basehttp 18073 140679458346752 "GET / HTTP/1.1" 200 7522
+DEBUG 2020-05-21 16:53:08,877 utils 18073 140679458346752 (0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:08.868553' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:08.868553', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:08,882 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:08,888 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:08,892 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:08,900 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:08,908 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product"; args=()
+INFO 2020-05-21 16:53:08,912 basehttp 18073 140679458346752 "GET / HTTP/1.1" 200 7522
+DEBUG 2020-05-21 16:53:10,855 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:10.849592' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:10.849592', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:10,859 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:10,863 utils 18073 140679458346752 (0.001) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:10,869 utils 18073 140679458346752 (0.001) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:10,876 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:10,894 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:10,899 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:10,902 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:10,903 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:10,905 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:10,906 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:10,907 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:10,907 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:10,908 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:10,908 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:10,909 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:10,909 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c1f4440>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c146810>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d25cc90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 2}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c146e90>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c146250>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c146d10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1f0c10>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+INFO 2020-05-21 16:53:10,910 basehttp 18073 140679458346752 "GET /cart/ HTTP/1.1" 200 7343
+DEBUG 2020-05-21 16:53:12,739 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:12.732233' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:12.732233', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:12,744 utils 18073 140679458346752 (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,749 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,753 utils 18073 140679458346752 (0.001) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,758 utils 18073 140679458346752 (0.001) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:12,765 utils 18073 140679458346752 (0.001) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE ("store_orderitem"."order_id" = 4 AND "store_orderitem"."product_id" = 1) LIMIT 21; args=(4, 1)
+DEBUG 2020-05-21 16:53:12,844 utils 18073 140679458346752 (0.077) UPDATE "store_orderitem" SET "product_id" = 1, "order_id" = 4, "quantity" = 1, "date_added" = '2020-05-21 11:21:56.558688' WHERE "store_orderitem"."id" = 16; args=(1, 4, 1, '2020-05-21 11:21:56.558688', 16)
+INFO 2020-05-21 16:53:12,845 basehttp 18073 140679458346752 "POST /update_item/ HTTP/1.1" 200 16
+DEBUG 2020-05-21 16:53:12,876 utils 18073 140679458346752 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:12.873739' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:12.873739', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:12,880 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,884 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,888 utils 18073 140679458346752 (0.001) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:12,895 utils 18073 140679458346752 (0.004) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:12,902 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:12,904 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:12,905 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,907 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:12,909 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:12,910 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:12,911 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:12,912 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:12,913 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:12,914 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:12,915 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:12,917 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27c149dd0>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c167b50>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27d26e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet [<OrderItem: OrderItem object (16)>]>, 'order': <Order: 4>, 'cartItems': 1}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c167dd0>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c167d50>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16a050>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c16dad0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+INFO 2020-05-21 16:53:12,919 basehttp 18073 140679458346752 "GET /cart/ HTTP/1.1" 200 7343
+DEBUG 2020-05-21 16:53:13,758 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:13.754063' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:13.754063', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:13,761 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:13,765 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:13,768 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product" WHERE "store_product"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:13,771 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:13,774 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE ("store_orderitem"."order_id" = 4 AND "store_orderitem"."product_id" = 1) LIMIT 21; args=(4, 1)
+DEBUG 2020-05-21 16:53:13,844 utils 18073 140679458346752 (0.068) UPDATE "store_orderitem" SET "product_id" = 1, "order_id" = 4, "quantity" = 0, "date_added" = '2020-05-21 11:21:56.558688' WHERE "store_orderitem"."id" = 16; args=(1, 4, 0, '2020-05-21 11:21:56.558688', 16)
+DEBUG 2020-05-21 16:53:13,911 utils 18073 140679458346752 (0.065) DELETE FROM "store_orderitem" WHERE "store_orderitem"."id" IN (16); args=(16,)
+INFO 2020-05-21 16:53:13,914 basehttp 18073 140679458346752 "POST /update_item/ HTTP/1.1" 200 16
+DEBUG 2020-05-21 16:53:13,985 utils 18073 140679458346752 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:13.981193' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:13.981193', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:14,001 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:14,003 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:14,006 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:14,008 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:14,033 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:14,035 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:14,037 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:14,037 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:14,038 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:14,038 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:14,039 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:14,039 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:14,040 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+DEBUG 2020-05-21 16:53:14,041 base 18073 140679458346752 Exception while resolving variable 'item' in template 'store/cart.html'.
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/.local/share/virtualenvs/django-ecommerce-bxsz0kYI/lib/python3.7/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [item] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7ff27d24dc20>>, 'request': <WSGIRequest: GET '/cart/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7ff27c1569d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7ff27c1cf090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'items': <QuerySet []>, 'order': <Order: 4>, 'cartItems': 0}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="row">\n  <div'>, <django.template.defaulttags.URLNode object at 0x7ff27c157850>, <TextNode: '"\n        >&#x2190; Conti'>, <Variable Node: order.get_cart_items>, <TextNode: '</strong></h5>\n          '>, <Variable Node: order.get_cart_total|floatformat:2>, <TextNode: '</strong>\n            </h'>, <django.template.defaulttags.URLNode object at 0x7ff27c157710>, <TextNode: '"\n              >Checkout'>, <ForNode: for item in items, tail_len: 19>, <TextNode: '\n\n      </table>\n      <!'>, <Variable Node: item.product.imageURL>, <TextNode: '" />\n        </div>\n     '>, <Variable Node: item.product.name>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.product.price|floatformat:2>, <TextNode: '</p></div>\n        <div s'>, <Variable Node: item.quantity>, <TextNode: '</p>\n          <div class'>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1c5e10>, <TextNode: '"\n            />\n\n       '>, <Variable Node: item.product.id>, <TextNode: '"\n                 data-a'>, <django.templatetags.static.StaticNode object at 0x7ff27c1728d0>, <TextNode: '"\n            />\n        '>, <Variable Node: item.get_total>, <TextNode: '</p></div>\n      </div> -'>]>}]
+INFO 2020-05-21 16:53:14,059 basehttp 18073 140679458346752 "GET /cart/ HTTP/1.1" 200 6508
+DEBUG 2020-05-21 16:53:16,007 utils 18073 140679458346752 (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-05-21 11:23:16.002445' AND "django_session"."session_key" = 'ro84iyd3u3qahi8br9s67tneqdja4c4i') LIMIT 21; args=('2020-05-21 11:23:16.002445', 'ro84iyd3u3qahi8br9s67tneqdja4c4i')
+DEBUG 2020-05-21 16:53:16,011 utils 18073 140679458346752 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:16,013 utils 18073 140679458346752 (0.000) SELECT "store_customer"."id", "store_customer"."user_id", "store_customer"."name", "store_customer"."email" FROM "store_customer" WHERE "store_customer"."user_id" = 1 LIMIT 21; args=(1,)
+DEBUG 2020-05-21 16:53:16,016 utils 18073 140679458346752 (0.000) SELECT "store_order"."id", "store_order"."customer_id", "store_order"."date_ordered", "store_order"."complete", "store_order"."transaction_id" FROM "store_order" WHERE ("store_order"."complete" = 0 AND "store_order"."customer_id" = 1) LIMIT 21; args=(False, 1)
+DEBUG 2020-05-21 16:53:16,019 utils 18073 140679458346752 (0.000) SELECT "store_orderitem"."id", "store_orderitem"."product_id", "store_orderitem"."order_id", "store_orderitem"."quantity", "store_orderitem"."date_added" FROM "store_orderitem" WHERE "store_orderitem"."order_id" = 4; args=(4,)
+DEBUG 2020-05-21 16:53:16,024 utils 18073 140679458346752 (0.000) SELECT "store_product"."id", "store_product"."name", "store_product"."price", "store_product"."digital", "store_product"."image" FROM "store_product"; args=()
+INFO 2020-05-21 16:53:16,026 basehttp 18073 140679458346752 "GET / HTTP/1.1" 200 7522
