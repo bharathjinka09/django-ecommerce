@@ -1,0 +1,11 @@
+{% extends 'store/main.html' %} 
+{% load static %} 
+
+{% block content %}
+<div class="container">
+	Are you sure to logout ? <br>
+
+	<a href="/accounts/logout/?next={% url 'store' %}" class="btn btn-success">Yes</a>
+	<a href="/" class="btn btn-danger">No</a>
+</div>
+{% endblock content %}
