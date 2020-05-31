@@ -1,0 +1,22 @@
+{% extends 'store/main.html' %} 
+{% load static %} 
+
+{% block content %}
+<div class="container">	
+<div class="row mt-5">
+	
+<p>Are you sure to logout ?</p> 
+</div>
+
+	<div>
+		<p>
+			<form method="POST" action="/accounts/logout/">
+				{% csrf_token %}
+				<button type="submit" class="btn btn-success">Yes</button>
+				<a href="/" class="btn btn-danger">No</a>
+			</form>
+			
+		</p>
+	</div>
+</div>
+{% endblock content %}

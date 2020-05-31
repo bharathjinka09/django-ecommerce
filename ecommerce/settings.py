@@ -69,7 +69,7 @@ ROOT_URLCONF = 'ecommerce.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -157,7 +157,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 # LOGGING = {
 #     'version': 1,
 #     'loggers': {
-#         'django': {
+#         'os.path.join(BASE_DIR, 'templates')django': {
 #             'handlers': ['file1', 'file2'],
 #             'level': 'DEBUG'
 #         }

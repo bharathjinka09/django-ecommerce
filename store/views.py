@@ -148,3 +148,16 @@ def processOrder(request):
         )
 
     return JsonResponse("Payment Complete!", safe=False)
+
+
+# from allauth.account.views import SignupView, LoginView, LogoutView
+
+# class MyLogoutView(LogoutView):
+#     template_name = 'store/logout_user.html'
+
+# class MySignupView(SignupView):
+#     template_name = 'my_signup.html'
+
+
+# class MyLoginView(LoginView):
+#     template_name = 'my_login.html'
