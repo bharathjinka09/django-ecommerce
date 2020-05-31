@@ -154,33 +154,33 @@ MEDIA_URL = '/images/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
-LOGGING = {
-    'version': 1,
-    'loggers': {
-        'django': {
-            'handlers': ['file1', 'file2'],
-            'level': 'DEBUG'
-        }
+# LOGGING = {
+#     'version': 1,
+#     'loggers': {
+#         'django': {
+#             'handlers': ['file1', 'file2'],
+#             'level': 'DEBUG'
+#         }
 
-    },
-    'handlers': {
-        'file1': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': './logs/debug1.log',
-            'formatter': 'simple'
-        },
-        'file2': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': './logs/debug2.log',
-            'formatter': 'simple'
-        }
-    },
-    'formatters': {
-        'simple': {
-            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
-            'style': '{',
-        }
-    }
-}
+#     },
+#     'handlers': {
+#         'file1': {
+#             'level': 'INFO',
+#             'class': 'logging.FileHandler',
+#             'filename': './logs/debug1.log',
+#             'formatter': 'simple'
+#         },
+#         'file2': {
+#             'level': 'DEBUG',
+#             'class': 'logging.FileHandler',
+#             'filename': './logs/debug2.log',
+#             'formatter': 'simple'
+#         }
+#     },
+#     'formatters': {
+#         'simple': {
+#             'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+#             'style': '{',
+#         }
+#     }
+# }
