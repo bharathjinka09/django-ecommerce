@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import json
 import datetime
 
 from .models import *
 from .utils import cookieCart, cartData, guestOrder
 from .filters import ProductFilter
-
+from .forms import CustomerForm
 # Create your views here.
 
 
@@ -16,12 +17,22 @@ def store(request):
     cartItems = data['cartItems']
 
     products = Product.objects.all()
+    page = request.GET.get('page', 1)
+
+    products_list = Product.objects.all()
+    paginator = Paginator(products_list, 3)
+    try:
+        products_page = paginator.page(page)
+    except PageNotAnInteger:
+        products_page = paginator.page(1)
+    except EmptyPage:
+        products_page = paginator.page(paginator.num_pages)
 
     # Filter products
     myFilter = ProductFilter(request.GET, queryset=products)
     products = myFilter.qs
 
-    context = {'products': products,
+    context = {'products': products, 'products_page': products_page,
                'cartItems': cartItems, 'myFilter': myFilter}
     return render(request, 'store/store.html', context)
 
@@ -29,6 +40,27 @@ def logout_user(request):
 
     return render(request, 'store/logout_user.html')
 
+
+def get_user_profile(request):
+
+    data = cartData(request)
+    cartItems = data['cartItems']
+    order = data['order']
+    items = data['items']
+
+    customer = request.user.customer
+    form = CustomerForm(instance=customer)
+
+    if request.method == 'POST':
+        form = CustomerForm(request.POST, instance=customer)
+        if form.is_valid():
+            form.save()
+
+    context = {'items': items, 'order': order,
+               'cartItems': cartItems,
+               'form': form}
+
+    return render(request, 'store/user_profile.html', context)
 
 def cart(request):
 

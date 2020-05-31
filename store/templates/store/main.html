@@ -108,12 +108,15 @@
           </li>
         </ul>
 
-        <div style="display:flex;">
+        <div>
           
           {% if request.user.is_authenticated %}
-          <p style="color: white;">Hi <b>{{request.user}}</b></p>
-          <a href="accounts/logout/" class="btn btn-danger">Logout</a>
-
+          <p style="color: white;">Hi <b>{{request.user.first_name}} {{request.user.last_name}}</b></p>
+           
+           <a class="btn btn-info" href="{% url 'profile' %}">Profile</a>
+          
+            <a href="accounts/logout/" class="btn btn-danger">Logout</a>
+          
           {% else %}
           
           <a href="accounts/google/login/?process=login" class="text-white" style="text-decoration: none;">

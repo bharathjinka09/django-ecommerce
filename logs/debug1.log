@@ -2655,3 +2655,441 @@ INFO 2020-05-31 13:33:24,735 basehttp 23503 139844470699776 "GET /?name=pro HTTP
 INFO 2020-05-31 13:33:27,384 basehttp 23503 139844470699776 "GET /?name=sh HTTP/1.1" 200 6098
 INFO 2020-05-31 13:33:37,338 basehttp 23503 139844470699776 "GET /?name=- HTTP/1.1" 200 5589
 INFO 2020-05-31 13:33:41,587 basehttp 23503 139844470699776 "GET /?name= HTTP/1.1" 200 8164
+INFO 2020-05-31 13:35:58,431 autoreload 23729 140141111437056 Watching for file changes with StatReloader
+INFO 2020-05-31 13:36:38,343 basehttp 23729 140140990580480 "GET /?name= HTTP/1.1" 200 8164
+INFO 2020-05-31 13:36:53,702 basehttp 23729 140140990580480 "GET /?name= HTTP/1.1" 200 8159
+INFO 2020-05-31 13:36:55,167 basehttp 23729 140140990580480 "GET /?name= HTTP/1.1" 200 8159
+INFO 2020-05-31 13:37:01,771 basehttp 23729 140140990580480 "GET /?name= HTTP/1.1" 200 8164
+INFO 2020-05-31 13:37:05,389 basehttp 23729 140140990580480 "GET /?name= HTTP/1.1" 200 8164
+INFO 2020-05-31 13:37:13,428 basehttp 23729 140140990580480 "GET /?name=Sho HTTP/1.1" 200 5581
+INFO 2020-05-31 13:37:15,846 basehttp 23729 140140990580480 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 14:26:37,860 basehttp 23729 140140990580480 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 14:28:01,279 basehttp 23729 140140990580480 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 14:28:01,521 basehttp 23729 140140990580480 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 14:28:02,556 basehttp 23729 140140990580480 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 14:37:11,011 autoreload 23729 140141111437056 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:37:11,609 autoreload 25051 140007172941568 Watching for file changes with StatReloader
+INFO 2020-05-31 14:40:11,955 autoreload 25051 140007172941568 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:40:12,518 autoreload 25319 139980722534144 Watching for file changes with StatReloader
+ERROR 2020-05-31 14:40:17,327 log 25319 139980601677568 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 31, in store
+    myFilter = ProductFilter(request.GET, queryset=products)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 187, in __init__
+    model = queryset.model
+AttributeError: 'Page' object has no attribute 'model'
+ERROR 2020-05-31 14:40:17,328 basehttp 25319 139980601677568 "GET / HTTP/1.1" 500 75912
+INFO 2020-05-31 14:41:07,050 autoreload 25319 139980722534144 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:41:07,582 autoreload 25364 139844266194688 Watching for file changes with StatReloader
+INFO 2020-05-31 14:41:09,881 basehttp 25364 139844145338112 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 14:43:37,392 autoreload 25364 139844266194688 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:43:37,956 autoreload 25547 139659551287040 Watching for file changes with StatReloader
+INFO 2020-05-31 14:44:30,154 autoreload 25547 139659551287040 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:44:30,803 autoreload 25584 140556159923968 Watching for file changes with StatReloader
+INFO 2020-05-31 14:44:43,149 autoreload 25584 140556159923968 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:44:43,683 autoreload 25599 140503053797120 Watching for file changes with StatReloader
+INFO 2020-05-31 14:44:49,492 autoreload 25599 140503053797120 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:44:50,084 autoreload 25618 140023647762176 Watching for file changes with StatReloader
+INFO 2020-05-31 14:45:26,198 autoreload 25618 140023647762176 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:45:26,783 autoreload 25660 140672983062272 Watching for file changes with StatReloader
+INFO 2020-05-31 14:45:44,841 basehttp 25660 140672794883840 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:46:02,888 autoreload 25660 140672983062272 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:46:03,477 autoreload 25711 140473926592256 Watching for file changes with StatReloader
+INFO 2020-05-31 14:46:07,482 basehttp 25711 140473738528512 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:46:10,832 basehttp 25711 140473738528512 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:46:24,606 autoreload 25711 140473926592256 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:46:25,229 autoreload 25744 139676059625216 Watching for file changes with StatReloader
+INFO 2020-05-31 14:46:26,723 autoreload 25744 139676059625216 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:46:27,256 autoreload 25750 140573344044800 Watching for file changes with StatReloader
+INFO 2020-05-31 14:46:34,128 autoreload 25750 140573344044800 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:46:34,686 autoreload 25769 139675367167744 Watching for file changes with StatReloader
+INFO 2020-05-31 14:46:36,889 basehttp 25769 139675246311168 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:47:27,016 autoreload 25769 139675367167744 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:47:27,624 autoreload 25810 139689703839488 Watching for file changes with StatReloader
+INFO 2020-05-31 14:47:31,261 autoreload 25810 139689703839488 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:47:31,822 autoreload 25827 140012720084736 Watching for file changes with StatReloader
+INFO 2020-05-31 14:47:38,697 autoreload 25827 140012720084736 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:47:39,243 autoreload 25845 139933839607552 Watching for file changes with StatReloader
+INFO 2020-05-31 14:47:54,139 basehttp 25845 139933651457792 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:48:13,322 autoreload 25845 139933839607552 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:48:13,890 autoreload 25935 140046514095872 Watching for file changes with StatReloader
+INFO 2020-05-31 14:48:15,799 basehttp 25935 140046325978880 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:48:26,313 autoreload 25935 140046514095872 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:48:26,949 autoreload 25962 140539456866048 Watching for file changes with StatReloader
+INFO 2020-05-31 14:48:28,226 basehttp 25962 140539336795904 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:48:35,192 autoreload 26018 139925900408576 Watching for file changes with StatReloader
+INFO 2020-05-31 14:48:36,448 basehttp 26018 139925780338432 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:48:37,481 basehttp 26018 139925780338432 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:48:37,728 basehttp 26018 139925780338432 "GET / HTTP/1.1" 200 8167
+INFO 2020-05-31 14:51:14,179 basehttp 26018 139925780338432 "GET / HTTP/1.1" 200 8170
+INFO 2020-05-31 14:51:37,595 autoreload 26018 139925900408576 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:51:38,222 autoreload 26150 139893565888256 Watching for file changes with StatReloader
+INFO 2020-05-31 14:51:42,653 basehttp 26150 139893377877760 "GET / HTTP/1.1" 200 8170
+INFO 2020-05-31 14:51:47,877 basehttp 26150 139893377877760 "GET /?name=Headphones HTTP/1.1" 200 5605
+INFO 2020-05-31 14:51:50,200 basehttp 26150 139893377877760 "GET /?name=Head HTTP/1.1" 200 5599
+INFO 2020-05-31 14:51:52,718 basehttp 26150 139893377877760 "GET / HTTP/1.1" 200 8170
+INFO 2020-05-31 14:52:15,473 autoreload 26150 139893565888256 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:52:16,051 autoreload 26205 139745779308288 Watching for file changes with StatReloader
+INFO 2020-05-31 14:52:18,943 basehttp 26205 139745658451712 "GET / HTTP/1.1" 200 8170
+INFO 2020-05-31 14:52:20,015 basehttp 26205 139745658451712 "GET / HTTP/1.1" 200 8170
+INFO 2020-05-31 14:52:55,413 autoreload 26205 139745779308288 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:52:56,021 autoreload 26241 139817744697088 Watching for file changes with StatReloader
+INFO 2020-05-31 14:53:00,754 autoreload 26241 139817744697088 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:53:01,308 autoreload 26257 140503494608640 Watching for file changes with StatReloader
+ERROR 2020-05-31 14:53:18,613 log 26257 140503373752064 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 36, in store
+    paginator = Paginator(products_list, 3)
+NameError: name 'products_list' is not defined
+ERROR 2020-05-31 14:53:18,614 basehttp 26257 140503373752064 "GET / HTTP/1.1" 500 70942
+INFO 2020-05-31 14:53:32,221 autoreload 26257 140503494608640 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:53:32,765 autoreload 26298 140263730571008 Watching for file changes with StatReloader
+INFO 2020-05-31 14:53:53,651 autoreload 26298 140263730571008 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:53:54,262 autoreload 26325 140143469045504 Watching for file changes with StatReloader
+INFO 2020-05-31 14:54:12,031 autoreload 26325 140143469045504 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:54:12,590 autoreload 26343 140485186004736 Watching for file changes with StatReloader
+INFO 2020-05-31 14:54:19,507 autoreload 26343 140485186004736 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:54:20,166 autoreload 26374 139987829184256 Watching for file changes with StatReloader
+INFO 2020-05-31 14:54:27,083 autoreload 26374 139987829184256 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:54:27,703 autoreload 26394 139788885501696 Watching for file changes with StatReloader
+INFO 2020-05-31 14:54:29,182 autoreload 26394 139788885501696 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:54:29,720 autoreload 26399 140562124723968 Watching for file changes with StatReloader
+INFO 2020-05-31 14:54:44,161 autoreload 26399 140562124723968 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:54:44,713 autoreload 26416 140495878203136 Watching for file changes with StatReloader
+ERROR 2020-05-31 14:55:01,160 log 26416 140495690028800 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 31, in store
+    myFilter = ProductFilter(request.GET, queryset=products)
+UnboundLocalError: local variable 'products' referenced before assignment
+ERROR 2020-05-31 14:55:01,161 basehttp 26416 140495690028800 "GET / HTTP/1.1" 500 71639
+INFO 2020-05-31 14:55:25,201 autoreload 26416 140495878203136 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:55:25,797 autoreload 26465 140548226463488 Watching for file changes with StatReloader
+INFO 2020-05-31 14:55:43,445 autoreload 26465 140548226463488 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:55:43,999 autoreload 26492 140671511389952 Watching for file changes with StatReloader
+ERROR 2020-05-31 14:55:46,875 log 26492 140671319013120 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 22, in store
+    paginator = Paginator(products_list, 3)
+NameError: name 'products_list' is not defined
+ERROR 2020-05-31 14:55:46,876 basehttp 26492 140671319013120 "GET / HTTP/1.1" 500 70957
+INFO 2020-05-31 14:55:54,214 autoreload 26492 140671511389952 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:55:54,800 autoreload 26521 139648491652864 Watching for file changes with StatReloader
+INFO 2020-05-31 14:55:56,486 basehttp 26521 139648303568640 "GET / HTTP/1.1" 200 8618
+INFO 2020-05-31 14:56:00,091 basehttp 26521 139648303568640 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:56:05,182 basehttp 26521 139648303568640 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:56:10,436 autoreload 26521 139648491652864 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:56:11,012 autoreload 26556 140665030338304 Watching for file changes with StatReloader
+INFO 2020-05-31 14:56:31,252 basehttp 26556 140664909481728 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:56:34,112 basehttp 26556 140664909481728 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:56:42,448 basehttp 26556 140664909481728 "GET /?name=Headphones HTTP/1.1" 200 6053
+INFO 2020-05-31 14:56:46,960 basehttp 26556 140664909481728 "GET /?name=Head HTTP/1.1" 200 6047
+INFO 2020-05-31 14:56:50,002 basehttp 26556 140664909481728 "GET /?name=Head HTTP/1.1" 200 6047
+INFO 2020-05-31 14:56:51,724 basehttp 26556 140664909481728 "GET / HTTP/1.1" 200 8618
+INFO 2020-05-31 14:56:56,842 basehttp 26556 140664909481728 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:57:00,170 basehttp 26556 140664909481728 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:57:02,687 basehttp 26556 140664909481728 "POST /update_item/ HTTP/1.1" 200 16
+INFO 2020-05-31 14:57:02,738 basehttp 26556 140664909481728 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:57:05,326 basehttp 26556 140664909481728 "GET /cart/ HTTP/1.1" 200 7302
+INFO 2020-05-31 14:57:07,437 basehttp 26556 140664909481728 "POST /update_item/ HTTP/1.1" 200 16
+INFO 2020-05-31 14:57:07,585 basehttp 26556 140664909481728 "GET /cart/ HTTP/1.1" 200 7302
+INFO 2020-05-31 14:57:09,437 basehttp 26556 140664909481728 "POST /update_item/ HTTP/1.1" 200 16
+INFO 2020-05-31 14:57:09,474 basehttp 26556 140664909481728 "GET /cart/ HTTP/1.1" 200 7302
+INFO 2020-05-31 14:57:11,214 basehttp 26556 140664909481728 "GET / HTTP/1.1" 200 8618
+INFO 2020-05-31 14:57:17,153 basehttp 26556 140664909481728 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:57:21,467 basehttp 26556 140664909481728 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:58:49,075 autoreload 26556 140665030338304 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 14:58:49,699 autoreload 26742 139845257758464 Watching for file changes with StatReloader
+INFO 2020-05-31 14:59:06,910 basehttp 26742 139845069592320 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:59:09,487 basehttp 26742 139845069592320 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:59:11,887 basehttp 26742 139845069592320 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:59:13,931 basehttp 26742 139845069592320 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:59:16,093 basehttp 26742 139845069592320 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:59:52,194 basehttp 26742 139845069592320 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 14:59:53,965 basehttp 26742 139845069592320 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 15:01:04,065 autoreload 26742 139845257758464 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:01:04,638 autoreload 26839 140569262724864 Watching for file changes with StatReloader
+INFO 2020-05-31 15:01:33,807 basehttp 26839 140569141868288 "GET /?page=1 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:01:37,081 basehttp 26839 140569141868288 "GET /?page=2 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:01:41,659 basehttp 26839 140569141868288 "GET /?page=1 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:01:44,014 basehttp 26839 140569141868288 "GET /?page=2 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:03:19,232 basehttp 26839 140569141868288 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 15:03:23,258 basehttp 26839 140569141868288 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 15:03:27,999 autoreload 27036 140245415442176 Watching for file changes with StatReloader
+INFO 2020-05-31 15:03:30,477 basehttp 27036 140245227304704 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 15:03:45,631 basehttp 27036 140245227304704 "GET /?page=2 HTTP/1.1" 200 8618
+INFO 2020-05-31 15:03:48,009 basehttp 27036 140245227304704 "GET /?page=1 HTTP/1.1" 200 8618
+INFO 2020-05-31 15:04:28,878 basehttp 27036 140245227304704 "GET /?page=1 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:04:31,840 basehttp 27036 140245227304704 "GET /?page=2 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:04:33,945 basehttp 27036 140245227304704 "GET /?page=1 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:04:42,553 basehttp 27036 140245227304704 "GET /?name=Headphones HTTP/1.1" 200 6054
+INFO 2020-05-31 15:04:44,536 basehttp 27036 140245227304704 "GET /?page=2 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:04:46,851 basehttp 27036 140245227304704 "GET /?page=1 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:04:50,490 basehttp 27036 140245227304704 "GET /?page=1 HTTP/1.1" 200 8619
+INFO 2020-05-31 15:04:53,985 basehttp 27036 140245227304704 "GET /accounts/logout/ HTTP/1.1" 200 837
+INFO 2020-05-31 15:04:56,087 basehttp 27036 140245227304704 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 15:04:56,115 basehttp 27036 140245227304704 "GET / HTTP/1.1" 200 8665
+INFO 2020-05-31 15:05:00,422 basehttp 27036 140245227304704 "GET / HTTP/1.1" 200 8665
+INFO 2020-05-31 15:05:02,549 basehttp 27036 140245227304704 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 15:05:09,941 basehttp 27036 140245227304704 "GET /accounts/google/login/callback/?state=PzGS7TcyiZ9v&code=4%2F0QFeGc9HkdJR3htdayB6dtXgcJFPym4fAn2-Hx7nKXcwqDy8Jiofcwdutfgfy2NywFExEzIrSmwIh5prVsYs2Wc&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 15:05:09,974 basehttp 27036 140245227304704 "GET / HTTP/1.1" 200 8635
+INFO 2020-05-31 15:05:14,414 basehttp 27036 140245227304704 "POST /update_item/ HTTP/1.1" 200 16
+INFO 2020-05-31 15:05:14,473 basehttp 27036 140245227304704 "GET / HTTP/1.1" 200 8635
+INFO 2020-05-31 15:05:17,621 basehttp 27036 140245227304704 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:05:20,317 basehttp 27036 140245227304704 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:05:22,101 basehttp 27036 140245227304704 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:05:51,137 autoreload 27036 140245415442176 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:05:51,689 autoreload 27212 140123917854464 Watching for file changes with StatReloader
+INFO 2020-05-31 15:06:03,803 basehttp 27212 140123796997888 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:06:06,233 basehttp 27212 140123796997888 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:06:24,721 basehttp 27212 140123796997888 "GET /?page=1 HTTP/1.1" 200 8187
+INFO 2020-05-31 15:06:35,862 basehttp 27212 140123796997888 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:06:38,063 basehttp 27212 140123796997888 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:06:40,569 basehttp 27212 140123796997888 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:06:42,850 basehttp 27212 140123796997888 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:06:56,047 autoreload 27212 140123917854464 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:06:56,584 autoreload 27295 140701596260096 Watching for file changes with StatReloader
+INFO 2020-05-31 15:07:18,996 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:09:28,448 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8187
+INFO 2020-05-31 15:09:35,575 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8187
+INFO 2020-05-31 15:09:39,367 basehttp 27295 140701475403520 "GET / HTTP/1.1" 200 8187
+INFO 2020-05-31 15:09:54,310 basehttp 27295 140701475403520 "GET / HTTP/1.1" 200 8635
+INFO 2020-05-31 15:09:59,134 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:01,041 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:03,055 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:05,149 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:35,250 basehttp 27295 140701475403520 "GET /?name= HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:36,504 basehttp 27295 140701475403520 "GET /?name= HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:39,523 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:10:42,130 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8635
+INFO 2020-05-31 15:17:43,815 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8637
+INFO 2020-05-31 15:17:46,770 basehttp 27295 140701475403520 "GET /?page=1&page=2 HTTP/1.1" 200 8636
+INFO 2020-05-31 15:17:50,061 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8637
+INFO 2020-05-31 15:17:52,696 basehttp 27295 140701475403520 "GET /?page=1&page=2 HTTP/1.1" 200 8636
+INFO 2020-05-31 15:17:55,012 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8637
+INFO 2020-05-31 15:17:57,885 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8636
+INFO 2020-05-31 15:18:14,131 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8648
+INFO 2020-05-31 15:18:17,051 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8648
+INFO 2020-05-31 15:18:45,291 basehttp 27295 140701475403520 "GET /?page=1 HTTP/1.1" 200 8648
+INFO 2020-05-31 15:18:48,306 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8648
+INFO 2020-05-31 15:18:55,719 basehttp 27295 140701475403520 "GET /?name= HTTP/1.1" 200 8648
+INFO 2020-05-31 15:18:58,246 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8648
+INFO 2020-05-31 15:19:20,479 basehttp 27295 140701475403520 "GET /?page=2 HTTP/1.1" 200 8657
+INFO 2020-05-31 15:19:26,524 basehttp 27295 140701475403520 "GET / HTTP/1.1" 200 8657
+INFO 2020-05-31 15:20:56,520 autoreload 27295 140701596260096 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 15:20:57,341 autoreload 28270 140545786803968 Watching for file changes with StatReloader
+INFO 2020-05-31 15:21:07,467 autoreload 28270 140545786803968 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 15:21:08,055 autoreload 28285 140046118131456 Watching for file changes with StatReloader
+INFO 2020-05-31 15:21:18,037 autoreload 28285 140046118131456 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:21:18,631 autoreload 28303 140453825955584 Watching for file changes with StatReloader
+INFO 2020-05-31 15:21:37,309 autoreload 28303 140453825955584 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:21:37,863 autoreload 28334 139939538646784 Watching for file changes with StatReloader
+INFO 2020-05-31 15:21:53,450 autoreload 28334 139939538646784 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:21:54,051 autoreload 28362 139738947352320 Watching for file changes with StatReloader
+INFO 2020-05-31 15:22:48,346 basehttp 28362 139738759317248 "GET / HTTP/1.1" 200 8657
+WARNING 2020-05-31 15:23:23,219 log 28362 139738759317248 Not Found: /profile/ranga_bharath
+WARNING 2020-05-31 15:23:23,219 basehttp 28362 139738759317248 "GET /profile/ranga_bharath HTTP/1.1" 404 3469
+INFO 2020-05-31 15:24:03,128 autoreload 28362 139738947352320 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 15:24:03,746 autoreload 28476 139818419873536 Watching for file changes with StatReloader
+WARNING 2020-05-31 15:24:10,517 log 28476 139818231133952 Not Found: /profile/ranga_bharath
+WARNING 2020-05-31 15:24:10,518 basehttp 28476 139818231133952 "GET /profile/ranga_bharath HTTP/1.1" 404 3469
+WARNING 2020-05-31 15:24:11,499 log 28476 139818231133952 Not Found: /profile/ranga_bharath
+WARNING 2020-05-31 15:24:11,499 basehttp 28476 139818231133952 "GET /profile/ranga_bharath HTTP/1.1" 404 3469
+WARNING 2020-05-31 15:24:15,273 log 28476 139818231133952 Not Found: /profile/
+WARNING 2020-05-31 15:24:15,274 basehttp 28476 139818231133952 "GET /profile/ HTTP/1.1" 404 3430
+INFO 2020-05-31 15:24:24,784 autoreload 28476 139818419873536 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 15:24:25,327 autoreload 28527 139930713868032 Watching for file changes with StatReloader
+WARNING 2020-05-31 15:24:27,501 log 28527 139930593011456 Not Found: /profile/
+WARNING 2020-05-31 15:24:27,501 basehttp 28527 139930593011456 "GET /profile/ HTTP/1.1" 404 3429
+WARNING 2020-05-31 15:24:33,080 log 28527 139930593011456 Not Found: /profile/ranga_bharath
+WARNING 2020-05-31 15:24:33,081 basehttp 28527 139930593011456 "GET /profile/ranga_bharath HTTP/1.1" 404 3468
+WARNING 2020-05-31 15:24:34,977 log 28527 139930593011456 Not Found: /profile/ranga_bharath
+WARNING 2020-05-31 15:24:34,978 basehttp 28527 139930593011456 "GET /profile/ranga_bharath HTTP/1.1" 404 3468
+INFO 2020-05-31 15:25:03,751 autoreload 28527 139930713868032 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 15:25:04,293 autoreload 28562 140050639693568 Watching for file changes with StatReloader
+INFO 2020-05-31 15:25:16,572 autoreload 28562 140050639693568 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 15:25:17,115 autoreload 28582 139816880142080 Watching for file changes with StatReloader
+WARNING 2020-05-31 15:25:20,542 log 28582 139816687630080 Not Found: /profile/ranga_bharath
+WARNING 2020-05-31 15:25:20,543 basehttp 28582 139816687630080 "GET /profile/ranga_bharath HTTP/1.1" 404 3452
+INFO 2020-05-31 15:25:22,555 basehttp 28582 139816687630080 "GET /profile HTTP/1.1" 301 0
+ERROR 2020-05-31 15:25:22,619 log 28582 139816687630080 Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_user_profile() missing 1 required positional argument: 'username'
+ERROR 2020-05-31 15:25:22,619 basehttp 28582 139816687630080 "GET /profile/ HTTP/1.1" 500 66544
+INFO 2020-05-31 15:25:33,948 autoreload 28582 139816880142080 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:25:34,487 autoreload 28614 140552482174720 Watching for file changes with StatReloader
+ERROR 2020-05-31 15:25:41,352 log 28614 140552361318144 Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 45, in get_user_profile
+    user = User.objects.get(username=username)
+NameError: name 'username' is not defined
+ERROR 2020-05-31 15:25:41,353 basehttp 28614 140552361318144 "GET /profile/ HTTP/1.1" 500 70006
+INFO 2020-05-31 15:25:59,817 autoreload 28614 140552482174720 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:26:00,420 autoreload 28644 140170997192448 Watching for file changes with StatReloader
+INFO 2020-05-31 15:26:02,447 basehttp 28644 140170809116416 "GET /profile/ HTTP/1.1" 200 4440
+INFO 2020-05-31 15:33:52,000 autoreload 28644 140170997192448 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:33:52,668 autoreload 29335 139661131802368 Watching for file changes with StatReloader
+INFO 2020-05-31 15:33:54,065 autoreload 29335 139661131802368 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:33:54,594 autoreload 29340 140046181025536 Watching for file changes with StatReloader
+INFO 2020-05-31 15:39:23,348 basehttp 29340 140045993006848 "GET /profile/ HTTP/1.1" 200 4472
+INFO 2020-05-31 15:39:51,375 basehttp 29340 140045993006848 "GET /profile/ HTTP/1.1" 200 4517
+INFO 2020-05-31 15:40:15,435 basehttp 29340 140045993006848 "GET /profile/ HTTP/1.1" 200 4517
+INFO 2020-05-31 15:40:17,098 basehttp 29340 140045993006848 "GET /profile/ HTTP/1.1" 200 4517
+INFO 2020-05-31 15:41:17,852 autoreload 29340 140046181025536 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:41:18,428 autoreload 29819 140673048815360 Watching for file changes with StatReloader
+INFO 2020-05-31 15:41:27,644 autoreload 29819 140673048815360 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:41:28,178 autoreload 29849 139707843872512 Watching for file changes with StatReloader
+INFO 2020-05-31 15:41:36,154 autoreload 29849 139707843872512 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:41:36,783 autoreload 29863 140598701471488 Watching for file changes with StatReloader
+INFO 2020-05-31 15:41:56,818 autoreload 29863 140598701471488 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:41:57,365 autoreload 29891 139747482179328 Watching for file changes with StatReloader
+INFO 2020-05-31 15:41:59,589 basehttp 29891 139747294107392 "GET /profile/ HTTP/1.1" 200 4518
+INFO 2020-05-31 15:43:26,991 basehttp 29891 139747294107392 "GET /profile/ HTTP/1.1" 200 5183
+WARNING 2020-05-31 15:43:27,026 basehttp 29891 139747294107392 "GET /static/images/profile1.png HTTP/1.1" 404 1683
+INFO 2020-05-31 15:43:52,769 basehttp 29891 139747294107392 "GET /profile/ HTTP/1.1" 200 5098
+INFO 2020-05-31 15:45:09,807 autoreload 29891 139747482179328 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:45:10,361 autoreload 30035 140101212550912 Watching for file changes with StatReloader
+INFO 2020-05-31 15:46:13,402 autoreload 30035 140101212550912 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:46:14,027 autoreload 30075 140424566511360 Watching for file changes with StatReloader
+INFO 2020-05-31 15:46:38,902 basehttp 30075 140424445654784 "GET /profile/ HTTP/1.1" 200 5325
+INFO 2020-05-31 15:47:25,940 autoreload 30075 140424566511360 /home/mieone/Downloads/django-ecommerce/ecommerce/store/models.py changed, reloading.
+INFO 2020-05-31 15:47:26,481 autoreload 30140 139622266197760 Watching for file changes with StatReloader
+INFO 2020-05-31 15:47:47,669 autoreload 30177 140220521977600 Watching for file changes with StatReloader
+INFO 2020-05-31 15:47:52,213 basehttp 30177 140220333799168 "GET /profile/ HTTP/1.1" 200 5441
+INFO 2020-05-31 15:48:09,002 basehttp 30177 140220333799168 "POST /profile/ HTTP/1.1" 200 5441
+INFO 2020-05-31 15:48:31,525 autoreload 30177 140220521977600 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:48:32,242 autoreload 30276 140637275203328 Watching for file changes with StatReloader
+INFO 2020-05-31 15:48:55,537 autoreload 30276 140637275203328 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:48:56,302 autoreload 30302 139622780512000 Watching for file changes with StatReloader
+INFO 2020-05-31 15:49:06,013 basehttp 30302 139622592300800 "GET /profile/ HTTP/1.1" 200 5463
+INFO 2020-05-31 15:49:24,012 basehttp 30302 139622592300800 "POST /profile/ HTTP/1.1" 200 5463
+INFO 2020-05-31 15:49:27,923 basehttp 30302 139622592300800 "POST /profile/ HTTP/1.1" 200 5463
+INFO 2020-05-31 15:50:51,389 autoreload 30302 139622780512000 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:50:51,941 autoreload 30383 140241130419968 Watching for file changes with StatReloader
+INFO 2020-05-31 15:50:56,783 autoreload 30383 140241130419968 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 15:50:57,404 autoreload 30402 139964783073024 Watching for file changes with StatReloader
+INFO 2020-05-31 15:51:03,087 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:51:04,675 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:24,935 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:26,517 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:28,056 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:29,854 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:52:32,005 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:49,987 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:52,281 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:52:54,413 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:53:16,320 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8721
+INFO 2020-05-31 15:53:33,794 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:53:43,885 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:54:27,216 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5520
+INFO 2020-05-31 15:54:29,168 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5520
+INFO 2020-05-31 15:54:30,108 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5520
+INFO 2020-05-31 15:54:49,871 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5524
+INFO 2020-05-31 15:54:50,405 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5524
+INFO 2020-05-31 15:55:34,084 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5556
+INFO 2020-05-31 15:55:35,996 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5556
+INFO 2020-05-31 15:55:46,333 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5549
+INFO 2020-05-31 15:56:19,181 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5570
+INFO 2020-05-31 15:56:41,133 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5525
+INFO 2020-05-31 15:56:42,212 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5525
+INFO 2020-05-31 15:57:14,970 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5537
+INFO 2020-05-31 15:57:48,094 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:57:55,583 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:57:57,165 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:58:14,397 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5515
+INFO 2020-05-31 15:58:43,883 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5520
+INFO 2020-05-31 15:58:49,807 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5520
+INFO 2020-05-31 15:58:59,536 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:59:38,168 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:59:39,679 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:59:44,778 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:59:45,380 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 15:59:45,631 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8734
+INFO 2020-05-31 16:00:32,234 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:00:33,452 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:00:42,224 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:01:38,391 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5520
+INFO 2020-05-31 16:04:38,891 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5640
+INFO 2020-05-31 16:05:02,568 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:05:31,013 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:05:38,827 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5640
+INFO 2020-05-31 16:05:53,766 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5638
+INFO 2020-05-31 16:05:55,821 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:06:04,053 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:06:06,528 basehttp 30402 139964595042048 "GET /cart/ HTTP/1.1" 200 7382
+INFO 2020-05-31 16:06:11,897 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:07:00,928 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5638
+INFO 2020-05-31 16:07:39,606 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5638
+INFO 2020-05-31 16:07:44,840 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5630
+INFO 2020-05-31 16:07:48,569 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5630
+INFO 2020-05-31 16:07:49,927 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:07:53,687 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5630
+INFO 2020-05-31 16:07:58,437 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5638
+INFO 2020-05-31 16:08:04,655 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5638
+INFO 2020-05-31 16:08:09,495 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5638
+INFO 2020-05-31 16:08:14,084 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8735
+INFO 2020-05-31 16:08:18,812 basehttp 30402 139964595042048 "GET /accounts/logout/ HTTP/1.1" 200 845
+INFO 2020-05-31 16:08:33,524 basehttp 30402 139964595042048 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 16:08:33,566 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8666
+INFO 2020-05-31 16:08:35,835 basehttp 30402 139964595042048 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 16:08:42,721 basehttp 30402 139964595042048 "GET /accounts/google/login/callback/?state=be5tvbANXDbJ&code=4%2F0QGMvm556qyXyVB3wVwSC73DCKbriPp4lOI1vhEyM8bK_OKWFBB0_kZOBUpG-MYDSX_7Y3Q0Vapr7-dBwt6fksU&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 16:08:42,757 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8719
+INFO 2020-05-31 16:08:48,543 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5562
+INFO 2020-05-31 16:09:02,235 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5623
+INFO 2020-05-31 16:09:08,742 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5623
+INFO 2020-05-31 16:09:13,054 basehttp 30402 139964595042048 "POST /profile/ HTTP/1.1" 200 5617
+INFO 2020-05-31 16:09:14,747 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8719
+INFO 2020-05-31 16:09:16,207 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8719
+INFO 2020-05-31 16:09:18,619 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8719
+INFO 2020-05-31 16:09:22,652 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5617
+INFO 2020-05-31 16:09:46,718 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5617
+INFO 2020-05-31 16:10:00,588 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5612
+INFO 2020-05-31 16:10:07,853 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5617
+INFO 2020-05-31 16:10:10,528 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8719
+INFO 2020-05-31 16:10:16,280 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8714
+INFO 2020-05-31 16:10:17,108 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8714
+INFO 2020-05-31 16:10:21,492 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8721
+INFO 2020-05-31 16:10:40,121 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8726
+INFO 2020-05-31 16:10:45,206 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8727
+INFO 2020-05-31 16:10:49,328 basehttp 30402 139964595042048 "GET /accounts/logout/ HTTP/1.1" 200 837
+INFO 2020-05-31 16:10:51,216 basehttp 30402 139964595042048 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 16:10:51,255 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8666
+INFO 2020-05-31 16:10:54,527 basehttp 30402 139964595042048 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 16:11:01,917 basehttp 30402 139964595042048 "GET /accounts/google/login/callback/?state=Xi8c1woiuoqa&code=4%2F0QH1xyb6RByMRJ0yJHR-z7jDZii6opQGjIJqcCtJ4psFzAh0_mV9c__YrVH94CYVb357-nO4WgFpvuGD4XcEZts&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 16:11:01,944 basehttp 30402 139964595042048 "GET / HTTP/1.1" 200 8741
+INFO 2020-05-31 16:11:10,989 basehttp 30402 139964595042048 "GET /profile/ HTTP/1.1" 200 5644

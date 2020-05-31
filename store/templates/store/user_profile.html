@@ -1,0 +1,37 @@
+{% extends 'store/main.html' %} 
+{% load static %} 
+
+{% block content %}
+
+<style type="text/css">
+	@media(max-width: 360px){
+		.profile{
+			margin-top: 1rem !important;
+		}
+	}
+</style>
+	
+	<div class="row mt-5">
+	<div class="col-md-3">
+		<div class="card card-body">
+			<a class="btn btn-warning" href="{% url 'store' %}"> &#8592; Back to Store</a>
+			<hr>
+			<h3 style="text-align: center">Account Settings</h3>
+			<hr>
+		</div>
+	</div>
+	<div class="col-md-9 profile">
+		<div class="card card-body">
+			
+			<form method="POST" action="" enctype="multipart/form-data">
+				{% csrf_token %}
+				{{form.as_p}}
+		
+			<input class="btn btn-primary" type="submit" name="Update Information">
+			</form>
+		</div>
+	</div>
+</div>
+
+
+{% endblock content %}

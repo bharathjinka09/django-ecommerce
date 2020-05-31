@@ -4,7 +4,7 @@
 {% block content %}
 
   
-  <form method="get">
+  <form method="get" class="mt-5">
     {{myFilter.form}} <br>
     <button type="submit" class="btn btn-outline-primary">Search</button>
     <!-- <div style="display: flex;">
@@ -30,6 +30,30 @@
     </div>
   {% endfor %} 
 </div>
+<br>
+<!-- 
+{% if products_page.has_other_pages %}
+      <ul class="pagination">
+        {% if products_page.has_previous %}
+          <li><a class="page-link" href="?page={{ products_page.previous_page_number }}">Prev</a></li>
+        {% else %}
+          <li class="page-link"><span>&laquo;</span></li>
+        {% endif %}
+        {% for i in products_page.paginator.page_range %}
+          {% if products_page.number == i %}
+            <li class="p-2 bg-success text-white"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+          {% else %}
+            <li><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+
+          {% endif %}
+        {% endfor %}
+        {% if products_page.has_next %}
+          <li><a class="page-link" href="?page={{ products_page.next_page_number }}">Next</a></li>
+        {% else %}
+          <li class="page-link"><span>&raquo;</span></li>
+        {% endif %}
+      </ul>
+    {% endif %} -->
 
 <script type="text/javascript">
   search_form = document.getElementById('id_name');
