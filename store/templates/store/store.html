@@ -4,12 +4,13 @@
 {% block content %}
 
   
-  <form action="/">
-    {% csrf_token %}
-    <div style="display: flex;">
+  <form method="get" action="/">
+    {{myFilter.form}}
+    <button type="submit" class="btn btn-outline-primary" style="border-radius: 10px;">Search</button>
+    <!-- <div style="display: flex;">
       <input type="text" class="form-control" name="search" placeholder="Search Products">
       <a href="/"><button class="btn btn-outline-primary" style="border-radius: 10px;">Search</button></a>
-    </div>
+    </div> -->
 
   </form>
 

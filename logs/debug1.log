@@ -2413,3 +2413,66 @@ INFO 2020-05-31 12:05:08,875 basehttp 14493 140266808833792 "POST /accounts/logo
 INFO 2020-05-31 12:05:08,904 basehttp 14493 140266808833792 "GET / HTTP/1.1" 200 7985
 INFO 2020-05-31 12:05:26,253 autoreload 14493 140266929690368 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
 INFO 2020-05-31 12:05:26,789 autoreload 14594 140133078398720 Watching for file changes with StatReloader
+INFO 2020-05-31 12:19:50,286 autoreload 15652 140543335372544 Watching for file changes with StatReloader
+INFO 2020-05-31 12:19:51,514 basehttp 15652 140543141082880 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 12:20:10,990 basehttp 15652 140543141082880 "GET /accounts/google/login/callback/?state=xYFrsflEabIv&code=4%2F0QEortlyVWQQ86ZH9_zYfWkXrlGPmPnDACS5lEX1mMcLoXyPPf5DdYo3IdxWej0zpF0PjhodQ5iXQJ_uOF8dJl4&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 12:20:11,035 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 12:21:00,773 basehttp 15652 140543141082880 "GET /accounts/logout/ HTTP/1.1" 200 837
+INFO 2020-05-31 12:21:02,762 basehttp 15652 140543141082880 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 12:21:02,795 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:21:04,855 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:21:08,710 basehttp 15652 140543141082880 "GET /cart/ HTTP/1.1" 200 7348
+INFO 2020-05-31 12:21:11,020 basehttp 15652 140543141082880 "GET /checkout/ HTTP/1.1" 200 10852
+INFO 2020-05-31 12:21:27,298 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:28:12,816 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:28:15,214 basehttp 15652 140543141082880 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 12:28:34,484 basehttp 15652 140543141082880 "GET /accounts/google/login/callback/?state=kwR1XPNvmnbO&code=4%2F0QGc8y2Ilry-sSLrSWdh9psnKgiqyoM2JdOZzf-GsrO57CJqB-X8ssX5YsynayeVRpjr7Q43moFSw2M4Zkg1wF0&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 12:28:34,508 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 12:28:45,779 basehttp 15652 140543141082880 "POST /update_item/ HTTP/1.1" 200 16
+INFO 2020-05-31 12:28:45,842 basehttp 15652 140543141082880 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 12:45:25,457 autoreload 17737 140437318407936 Watching for file changes with StatReloader
+INFO 2020-05-31 12:52:48,906 autoreload 17737 140437318407936 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 12:52:49,611 autoreload 18928 139993348605696 Watching for file changes with StatReloader
+INFO 2020-05-31 12:55:08,872 autoreload 18928 139993348605696 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 12:55:09,417 autoreload 19106 140367496017664 Watching for file changes with StatReloader
+INFO 2020-05-31 12:55:45,036 autoreload 19152 139800289765120 Watching for file changes with StatReloader
+INFO 2020-05-31 12:57:38,142 basehttp 19152 139800101586688 "GET / HTTP/1.1" 200 8174
+INFO 2020-05-31 12:57:46,613 basehttp 19152 139800101586688 "GET /?csrfmiddlewaretoken=KrO9Z9eZ50v8VkTrTqIMaoOZZ38RWAnfA8gMmszRgjeX1xwoXsJy64uggZ4aVOVz&name=Headphones HTTP/1.1" 200 8174
+INFO 2020-05-31 12:58:41,963 basehttp 19152 139800101586688 "GET /?csrfmiddlewaretoken=0HNP1xAq3C8Bt1EmpPcoTDhIDqxZ3cPhQofsoQVieVRqzehjtRdaPjXZUmti2qnB&name= HTTP/1.1" 200 8174
+INFO 2020-05-31 12:58:53,628 basehttp 19152 139800101586688 "GET /?csrfmiddlewaretoken=0HNP1xAq3C8Bt1EmpPcoTDhIDqxZ3cPhQofsoQVieVRqzehjtRdaPjXZUmti2qnB&name= HTTP/1.1" 200 8183
+INFO 2020-05-31 12:58:55,147 basehttp 19152 139800101586688 "GET / HTTP/1.1" 200 8183
+INFO 2020-05-31 12:58:57,108 basehttp 19152 139800101586688 "GET /?name= HTTP/1.1" 200 8183
+INFO 2020-05-31 12:59:01,970 basehttp 19152 139800101586688 "GET /?name=Headphones HTTP/1.1" 200 8183
+INFO 2020-05-31 13:00:17,620 autoreload 19152 139800289765120 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 13:00:18,267 autoreload 19611 139698629928704 Watching for file changes with StatReloader
+INFO 2020-05-31 13:01:08,745 autoreload 19611 139698629928704 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 13:01:09,519 autoreload 19651 139972580554496 Watching for file changes with StatReloader
+INFO 2020-05-31 13:01:23,811 basehttp 19651 139972459697920 "GET /?name=Headphones HTTP/1.1" 200 5483
+INFO 2020-05-31 13:01:28,490 basehttp 19651 139972459697920 "GET / HTTP/1.1" 200 8048
+INFO 2020-05-31 13:01:34,183 basehttp 19651 139972459697920 "GET /?name=mount HTTP/1.1" 200 4959
+INFO 2020-05-31 13:01:37,079 basehttp 19651 139972459697920 "GET /?name=mount HTTP/1.1" 200 4959
+INFO 2020-05-31 13:01:41,419 basehttp 19651 139972459697920 "GET /?name=Mount+of+Olives+Book HTTP/1.1" 200 5496
+INFO 2020-05-31 13:01:43,790 basehttp 19651 139972459697920 "GET / HTTP/1.1" 200 8048
+INFO 2020-05-31 13:01:52,139 basehttp 19651 139972459697920 "GET /?name=shoes HTTP/1.1" 200 4959
+INFO 2020-05-31 13:01:54,584 basehttp 19651 139972459697920 "GET / HTTP/1.1" 200 8048
+INFO 2020-05-31 13:03:16,496 basehttp 19651 139972459697920 "GET / HTTP/1.1" 200 8048
+INFO 2020-05-31 13:03:23,551 basehttp 19651 139972459697920 "GET /?name=Google+Login HTTP/1.1" 200 4966
+INFO 2020-05-31 13:03:25,376 basehttp 19651 139972459697920 "GET / HTTP/1.1" 200 8048
+INFO 2020-05-31 13:03:53,735 autoreload 19651 139972580554496 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 13:03:54,333 autoreload 19834 140344853894912 Watching for file changes with StatReloader
+INFO 2020-05-31 13:04:00,136 autoreload 19834 140344853894912 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 13:04:00,698 autoreload 19854 140717612529408 Watching for file changes with StatReloader
+INFO 2020-05-31 13:04:07,058 basehttp 19854 140717422802688 "GET / HTTP/1.1" 200 8048
+INFO 2020-05-31 13:04:12,527 basehttp 19854 140717422802688 "GET /?name=Headphones HTTP/1.1" 200 5483
+INFO 2020-05-31 13:06:00,926 autoreload 19854 140717612529408 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:06:01,610 autoreload 19961 139672054064896 Watching for file changes with StatReloader
+INFO 2020-05-31 13:06:22,408 autoreload 19961 139672054064896 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:06:22,963 autoreload 19988 140012919617280 Watching for file changes with StatReloader
+INFO 2020-05-31 13:06:27,144 basehttp 19988 140012798760704 "GET /?name=Headphones HTTP/1.1" 200 5492
+INFO 2020-05-31 13:06:35,046 basehttp 19988 140012798760704 "GET /?name=Head HTTP/1.1" 200 5486
+INFO 2020-05-31 13:06:40,400 basehttp 19988 140012798760704 "GET /?name=head HTTP/1.1" 200 5486
+INFO 2020-05-31 13:06:42,411 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8057
+INFO 2020-05-31 13:06:46,122 basehttp 19988 140012798760704 "GET /?name=mount HTTP/1.1" 200 5490
+INFO 2020-05-31 13:06:48,679 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8057
+INFO 2020-05-31 13:07:50,898 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8038
+INFO 2020-05-31 13:07:58,613 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8057

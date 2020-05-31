@@ -5,6 +5,8 @@ import datetime
 
 from .models import *
 from .utils import cookieCart, cartData, guestOrder
+from .filters import ProductFilter
+
 # Create your views here.
 
 
@@ -14,7 +16,13 @@ def store(request):
     cartItems = data['cartItems']
 
     products = Product.objects.all()
-    context = {'products': products, 'cartItems': cartItems}
+
+    # Filter products
+    myFilter = ProductFilter(request.GET, queryset=products)
+    products = myFilter.qs
+
+    context = {'products': products,
+               'cartItems': cartItems, 'myFilter': myFilter}
     return render(request, 'store/store.html', context)
 
 def logout_user(request):
