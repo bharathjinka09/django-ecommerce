@@ -111,8 +111,12 @@
         <div>
           
           {% if request.user.is_authenticated %}
-          <p style="color: white;">Hi <b>{{request.user.first_name}} {{request.user.last_name}}</b> <img width="20" alt="" src="{{request.user.customer.profile_pic.url}}" ></p>
-           
+          <p style="color: white;">Hi <b>{{request.user.first_name}} {{request.user.last_name}}</b>
+          {% if request.user.customer.profile_pic %} 
+            <img width="20" alt="" src="{{request.user.customer.profile_pic.url}}" ></p>
+          {% else %}
+
+          {% endif %}
            <a class="btn btn-warning" href="{% url 'profile' %}">
           Profile</a>
           
