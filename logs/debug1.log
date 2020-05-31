@@ -415,3 +415,2001 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateDoesNotExist: registration/login.html
 ERROR 2020-05-30 18:28:08,111 basehttp 21077 139707027216128 "GET /accounts/login/ HTTP/1.1" 500 83797
 INFO 2020-05-30 18:28:13,402 basehttp 21077 139707027216128 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 18:58:42,304 autoreload 24944 140479848531712 Watching for file changes with StatReloader
+INFO 2020-05-30 18:58:44,272 basehttp 24944 140479731701504 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:08:20,977 autoreload 25422 140277962487552 Watching for file changes with StatReloader
+INFO 2020-05-30 19:11:00,139 autoreload 25685 140299974698752 Watching for file changes with StatReloader
+INFO 2020-05-30 19:11:28,118 autoreload 25719 140493561026304 Watching for file changes with StatReloader
+INFO 2020-05-30 19:11:35,465 basehttp 25719 140493444626176 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:11:38,112 basehttp 25719 140493444626176 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:18:56,320 autoreload 26241 139705608181504 Watching for file changes with StatReloader
+INFO 2020-05-30 19:19:17,158 autoreload 26266 140249016649472 Watching for file changes with StatReloader
+INFO 2020-05-30 19:19:30,723 basehttp 26266 140248896055040 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:19:32,432 basehttp 26266 140248896055040 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:19:33,019 basehttp 26266 140248896055040 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:19:43,937 basehttp 26266 140248896055040 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:19:47,149 basehttp 26266 140248896055040 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:19:47,214 basehttp 26266 140248896055040 "GET /admin/ HTTP/1.1" 200 11572
+INFO 2020-05-30 19:19:51,554 basehttp 26266 140248896055040 "GET /admin/account/emailaddress/ HTTP/1.1" 200 4135
+INFO 2020-05-30 19:19:51,677 basehttp 26266 140248658994944 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:51,683 basehttp 26266 140248658994944 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:51,836 basehttp 26266 140248667387648 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2020-05-30 19:19:51,852 basehttp 26266 140248887662336 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:19:51,860 basehttp 26266 140248658994944 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:51,876 basehttp 26266 140248658994944 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:51,895 basehttp 26266 140248650602240 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:51,951 basehttp 26266 140248658994944 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:52,014 basehttp 26266 140248658994944 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:52,020 basehttp 26266 140248896055040 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+INFO 2020-05-30 19:19:52,157 basehttp 26266 140248658994944 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2020-05-30 19:19:53,814 basehttp 26266 140248658994944 "GET /admin/ HTTP/1.1" 200 11572
+INFO 2020-05-30 19:19:59,468 basehttp 26266 140248658994944 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-30 19:20:01,309 basehttp 26266 140248658994944 "GET /logout_user/ HTTP/1.1" 200 4572
+INFO 2020-05-30 19:20:03,645 basehttp 26266 140248658994944 "GET /accounts/logout/?next=/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:20:03,660 basehttp 26266 140248658994944 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:20:07,545 basehttp 26266 140248658994944 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:20:07,566 basehttp 26266 140248658994944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:20:19,680 basehttp 26266 140248658994944 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:20:19,723 basehttp 26266 140248658994944 "GET /admin/ HTTP/1.1" 200 11572
+INFO 2020-05-30 19:20:25,085 basehttp 26266 140248658994944 "GET /admin/sites/site/ HTTP/1.1" 200 5094
+INFO 2020-05-30 19:20:25,136 basehttp 26266 140248658994944 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:20:25,301 basehttp 26266 140248658994944 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2020-05-30 19:20:27,317 basehttp 26266 140248658994944 "GET /admin/ HTTP/1.1" 200 11572
+ERROR 2020-05-30 19:22:25,023 log 26266 140248658994944 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+ERROR 2020-05-30 19:22:25,025 basehttp 26266 140248658994944 "GET /accounts/login/ HTTP/1.1" 500 84690
+INFO 2020-05-30 19:22:29,590 basehttp 26266 140248658994944 "GET /account/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:22:29,714 log 26266 140248658994944 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:22:29,716 basehttp 26266 140248658994944 "GET /accounts/profile/ HTTP/1.1" 404 4843
+INFO 2020-05-30 19:22:34,797 basehttp 26266 140248658994944 "GET /account/login HTTP/1.1" 301 0
+INFO 2020-05-30 19:22:34,809 basehttp 26266 140248658994944 "GET /account/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:22:34,867 log 26266 140248658994944 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:22:34,868 basehttp 26266 140248658994944 "GET /accounts/profile/ HTTP/1.1" 404 4843
+WARNING 2020-05-30 19:22:55,149 log 26266 140248658994944 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:22:55,150 basehttp 26266 140248658994944 "GET /accounts/profile/ HTTP/1.1" 404 4843
+INFO 2020-05-30 19:22:55,169 autoreload 26266 140249016649472 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/urls.py changed, reloading.
+INFO 2020-05-30 19:22:55,880 autoreload 26644 139633105684224 Watching for file changes with StatReloader
+INFO 2020-05-30 19:22:59,467 basehttp 26644 139632918050560 "GET /account/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:22:59,478 log 26644 139632918050560 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:22:59,478 basehttp 26644 139632918050560 "GET /accounts/profile/ HTTP/1.1" 404 3268
+WARNING 2020-05-30 19:23:02,827 log 26644 139632918050560 Not Found: /accounts/login/
+WARNING 2020-05-30 19:23:02,828 basehttp 26644 139632918050560 "GET /accounts/login/ HTTP/1.1" 404 3262
+WARNING 2020-05-30 19:23:04,864 log 26644 139632918050560 Not Found: /accounts/login/
+WARNING 2020-05-30 19:23:04,865 basehttp 26644 139632918050560 "GET /accounts/login/ HTTP/1.1" 404 3262
+INFO 2020-05-30 19:23:11,504 autoreload 26644 139633105684224 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/urls.py changed, reloading.
+INFO 2020-05-30 19:23:12,060 autoreload 26689 139990211004160 Watching for file changes with StatReloader
+INFO 2020-05-30 19:23:13,214 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:23:13,228 log 26689 139990024214272 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:23:13,228 basehttp 26689 139990024214272 "GET /accounts/profile/ HTTP/1.1" 404 6769
+WARNING 2020-05-30 19:23:16,062 log 26689 139990024214272 Not Found: /accounts/
+WARNING 2020-05-30 19:23:16,063 basehttp 26689 139990024214272 "GET /accounts/ HTTP/1.1" 404 6745
+INFO 2020-05-30 19:23:21,316 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:23:21,326 log 26689 139990024214272 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:23:21,327 basehttp 26689 139990024214272 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-30 19:23:29,179 basehttp 26689 139990024214272 "GET /admin/logout/ HTTP/1.1" 200 1211
+WARNING 2020-05-30 19:23:31,607 log 26689 139990024214272 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:23:31,608 basehttp 26689 139990024214272 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-30 19:23:36,860 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 200 1566
+INFO 2020-05-30 19:23:41,598 basehttp 26689 139990024214272 "GET /accounts/signup/ HTTP/1.1" 200 1332
+INFO 2020-05-30 19:23:43,101 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 200 1566
+INFO 2020-05-30 19:23:55,854 basehttp 26689 139990024214272 "GET /accounts/logout HTTP/1.1" 301 0
+INFO 2020-05-30 19:23:55,863 basehttp 26689 139990024214272 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:23:55,926 basehttp 26689 139990024214272 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:24:00,822 basehttp 26689 139990024214272 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:24:00,835 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:24:00,910 basehttp 26689 139990024214272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:24:12,258 basehttp 26689 139990024214272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:24:12,294 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 200 11572
+INFO 2020-05-30 19:24:14,764 basehttp 26689 139990024214272 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-30 19:24:16,441 basehttp 26689 139990024214272 "GET /logout_user/ HTTP/1.1" 200 4572
+INFO 2020-05-30 19:24:20,798 basehttp 26689 139990024214272 "GET /accounts/logout/?next=/ HTTP/1.1" 200 690
+INFO 2020-05-30 19:24:34,707 basehttp 26689 139990024214272 "GET /accounts/email/ HTTP/1.1" 200 2121
+INFO 2020-05-30 19:24:40,065 basehttp 26689 139990024214272 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:24:40,095 basehttp 26689 139990024214272 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:24:53,703 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:24:53,723 basehttp 26689 139990024214272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2029
+INFO 2020-05-30 19:24:53,892 basehttp 26689 139990024214272 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2020-05-30 19:25:04,833 basehttp 26689 139990024214272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:25:04,871 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 200 11572
+INFO 2020-05-30 19:25:07,415 basehttp 26689 139990024214272 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-30 19:25:09,237 basehttp 26689 139990024214272 "GET /logout_user/ HTTP/1.1" 200 4572
+INFO 2020-05-30 19:25:18,416 basehttp 26689 139990024214272 "GET /accounts/logout/?next=/ HTTP/1.1" 200 690
+INFO 2020-05-30 19:25:44,858 basehttp 26689 139990024214272 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-30 19:25:50,284 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:25:50,293 log 26689 139990024214272 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:25:50,294 basehttp 26689 139990024214272 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-30 19:25:55,045 basehttp 26689 139990024214272 "GET /admin/logout/ HTTP/1.1" 200 1211
+WARNING 2020-05-30 19:25:56,804 log 26689 139990024214272 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:25:56,804 basehttp 26689 139990024214272 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-30 19:25:59,474 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 200 1566
+ERROR 2020-05-30 19:26:01,511 log 26689 139990024214272 Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 96, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/adapter.py", line 203, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/models.py", line 34, in get_current
+    provider=provider)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+ERROR 2020-05-30 19:26:01,513 basehttp 26689 139990024214272 "GET /accounts/google/login/?process=login HTTP/1.1" 500 98137
+INFO 2020-05-30 19:28:49,723 basehttp 26689 139990024214272 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:28:49,729 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:28:49,788 basehttp 26689 139990024214272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:28:58,595 basehttp 26689 139990024214272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:28:58,632 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 200 11572
+INFO 2020-05-30 19:29:06,815 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 3269
+INFO 2020-05-30 19:29:07,002 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:29:09,313 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialapp/add/ HTTP/1.1" 200 7407
+INFO 2020-05-30 19:29:09,361 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:29:09,401 basehttp 26689 139990002095872 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:29:09,424 basehttp 26689 139990024214272 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2020-05-30 19:29:09,427 basehttp 26689 139990002095872 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:29:09,494 basehttp 26689 139990024214272 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+INFO 2020-05-30 19:30:53,149 basehttp 26689 139990024214272 "GET /admin/sites/site/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3508
+INFO 2020-05-30 19:30:53,278 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:31:21,564 basehttp 26689 139990024214272 "POST /admin/sites/site/add/?_to_field=id&_popup=1 HTTP/1.1" 200 382
+INFO 2020-05-30 19:31:21,603 basehttp 26689 139990024214272 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 569
+INFO 2020-05-30 19:31:32,673 basehttp 26689 139990024214272 "POST /admin/socialaccount/socialapp/add/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:31:32,783 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7976
+INFO 2020-05-30 19:31:32,888 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:32:02,394 basehttp 26689 139990024214272 "GET /admin/logout/ HTTP/1.1" 200 1211
+ERROR 2020-05-30 19:32:06,220 log 26689 139990024214272 Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 96, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/adapter.py", line 203, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/models.py", line 34, in get_current
+    provider=provider)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+ERROR 2020-05-30 19:32:06,221 basehttp 26689 139990024214272 "GET /accounts/google/login/?process=login HTTP/1.1" 500 98303
+WARNING 2020-05-30 19:32:09,425 log 26689 139990024214272 Not Found: /accounts/
+WARNING 2020-05-30 19:32:09,425 basehttp 26689 139990024214272 "GET /accounts/ HTTP/1.1" 404 6745
+INFO 2020-05-30 19:32:16,458 basehttp 26689 139990024214272 "GET /accounts/login/ HTTP/1.1" 200 1566
+INFO 2020-05-30 19:32:42,849 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:32:42,871 basehttp 26689 139990024214272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:32:53,693 basehttp 26689 139990015821568 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:32:53,782 basehttp 26689 139990015821568 "GET /static/css/main.css HTTP/1.1" 200 1359
+INFO 2020-05-30 19:32:53,805 basehttp 26689 139989984261888 "GET /images/headphones.jpg HTTP/1.1" 200 10782
+INFO 2020-05-30 19:32:53,809 basehttp 26689 139989992654592 "GET /static/images/cart.png HTTP/1.1" 200 92001
+INFO 2020-05-30 19:32:56,107 basehttp 26689 139989992654592 "GET /static/js/cart.js HTTP/1.1" 200 1422
+INFO 2020-05-30 19:32:56,139 basehttp 26689 139989992654592 "GET /images/book.jpg HTTP/1.1" 200 22934
+INFO 2020-05-30 19:32:56,185 basehttp 26689 139989992654592 "GET /images/sourcecode.jpg HTTP/1.1" 200 22689
+INFO 2020-05-30 19:32:56,243 basehttp 26689 139989992654592 "GET /images/watch.jpg HTTP/1.1" 200 12779
+INFO 2020-05-30 19:32:56,309 basehttp 26689 139989992654592 "GET /images/shoes.jpg HTTP/1.1" 200 29593
+INFO 2020-05-30 19:32:56,365 basehttp 26689 139989992654592 "GET /images/shirt_HB0lGx0.jpg HTTP/1.1" 200 18895
+INFO 2020-05-30 19:33:22,097 basehttp 26689 139990024214272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:33:22,134 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 200 11608
+INFO 2020-05-30 19:33:26,840 basehttp 26689 139990024214272 "GET /admin/sites/site/ HTTP/1.1" 200 5372
+INFO 2020-05-30 19:33:26,887 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:33:33,927 basehttp 26689 139990024214272 "POST /admin/sites/site/ HTTP/1.1" 200 3322
+INFO 2020-05-30 19:33:33,995 basehttp 26689 139990024214272 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2020-05-30 19:33:35,602 basehttp 26689 139990024214272 "POST /admin/sites/site/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:33:35,660 basehttp 26689 139990024214272 "GET /admin/sites/site/ HTTP/1.1" 200 5232
+INFO 2020-05-30 19:33:35,767 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:33:37,898 basehttp 26689 139990024214272 "GET /admin/sites/ HTTP/1.1" 200 2422
+INFO 2020-05-30 19:33:39,156 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 200 11552
+INFO 2020-05-30 19:33:39,251 basehttp 26689 139990024214272 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2020-05-30 19:33:40,746 basehttp 26689 139990024214272 "GET /admin/account/emailaddress/ HTTP/1.1" 200 6012
+INFO 2020-05-30 19:33:40,786 basehttp 26689 139990002095872 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2020-05-30 19:33:40,792 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:33:42,433 basehttp 26689 139990024214272 "GET /admin/account/ HTTP/1.1" 200 2491
+INFO 2020-05-30 19:33:44,418 basehttp 26689 139990024214272 "GET /admin/account/emailaddress/ HTTP/1.1" 200 6012
+INFO 2020-05-30 19:33:44,474 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:33:46,697 basehttp 26689 139990024214272 "GET /admin/account/ HTTP/1.1" 200 2491
+INFO 2020-05-30 19:33:47,690 basehttp 26689 139990024214272 "GET /admin/ HTTP/1.1" 200 11552
+INFO 2020-05-30 19:33:57,231 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 3875
+INFO 2020-05-30 19:33:57,275 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:33:59,053 basehttp 26689 139990024214272 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-30 19:34:00,807 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialtoken/ HTTP/1.1" 200 4547
+INFO 2020-05-30 19:34:00,853 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:34:02,389 basehttp 26689 139990024214272 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-30 19:34:03,674 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4666
+INFO 2020-05-30 19:34:03,722 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:34:06,127 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7695
+INFO 2020-05-30 19:34:06,171 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:34:12,707 basehttp 26689 139990024214272 "POST /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:34:12,757 basehttp 26689 139990024214272 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4878
+INFO 2020-05-30 19:34:12,843 basehttp 26689 139990024214272 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+WARNING 2020-05-30 19:34:19,605 log 26689 139989992654592 Not Found: /login
+WARNING 2020-05-30 19:34:19,606 basehttp 26689 139989992654592 "GET /login HTTP/1.1" 404 3233
+INFO 2020-05-30 19:34:24,318 basehttp 26689 139989992654592 "GET /accounts/login HTTP/1.1" 301 0
+ERROR 2020-05-30 19:34:24,542 log 26689 139989992654592 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:34:24,543 basehttp 26689 139989992654592 "GET /accounts/login/ HTTP/1.1" 500 127784
+ERROR 2020-05-30 19:34:29,559 log 26689 139989992654592 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:34:29,560 basehttp 26689 139989992654592 "GET /accounts/login/ HTTP/1.1" 500 127921
+INFO 2020-05-30 19:34:37,220 basehttp 26689 139989992654592 "GET / HTTP/1.1" 200 7546
+ERROR 2020-05-30 19:34:39,777 log 26689 139989992654592 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:34:39,778 basehttp 26689 139989992654592 "GET /accounts/login/ HTTP/1.1" 500 127784
+ERROR 2020-05-30 19:35:10,319 log 26689 139989992654592 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:35:10,320 basehttp 26689 139989992654592 "GET /accounts/login/ HTTP/1.1" 500 127921
+ERROR 2020-05-30 19:35:11,422 log 26689 139989992654592 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:35:11,423 basehttp 26689 139989992654592 "GET /accounts/login/ HTTP/1.1" 500 127921
+INFO 2020-05-30 19:35:15,372 autoreload 27792 140383026231040 Watching for file changes with StatReloader
+ERROR 2020-05-30 19:35:18,329 log 27792 140382905898752 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:35:18,331 basehttp 27792 140382905898752 "GET /accounts/login/ HTTP/1.1" 500 127921
+ERROR 2020-05-30 19:35:24,319 log 27792 140382905898752 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:35:24,320 basehttp 27792 140382905898752 "GET /accounts/login/ HTTP/1.1" 500 127784
+INFO 2020-05-30 19:35:37,490 basehttp 27792 140382895671040 "GET /admin/socialaccount/socialapp/add/ HTTP/1.1" 200 7423
+INFO 2020-05-30 19:35:37,618 basehttp 27792 140382895671040 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:36:02,064 basehttp 27792 140382895671040 "GET /admin/sites/site/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3508
+INFO 2020-05-30 19:36:02,100 basehttp 27792 140382895671040 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:36:11,304 basehttp 27792 140382895671040 "POST /admin/sites/site/add/?_to_field=id&_popup=1 HTTP/1.1" 200 365
+INFO 2020-05-30 19:36:17,443 basehttp 27792 140382895671040 "POST /admin/socialaccount/socialapp/add/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:36:17,504 basehttp 27792 140382895671040 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 5145
+INFO 2020-05-30 19:36:17,614 basehttp 27792 140382895671040 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:36:21,109 basehttp 27792 140382895671040 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:36:21,120 log 27792 140382895671040 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:36:21,120 basehttp 27792 140382895671040 "GET /accounts/profile/ HTTP/1.1" 404 6769
+WARNING 2020-05-30 19:36:22,221 log 27792 140382895671040 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:36:22,221 basehttp 27792 140382895671040 "GET /accounts/profile/ HTTP/1.1" 404 6769
+ERROR 2020-05-30 19:36:31,468 log 27792 140382905898752 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:36:31,468 basehttp 27792 140382905898752 "GET /accounts/login/ HTTP/1.1" 500 127947
+ERROR 2020-05-30 19:36:32,703 log 27792 140382905898752 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:36:32,704 basehttp 27792 140382905898752 "GET /accounts/login/ HTTP/1.1" 500 127947
+ERROR 2020-05-30 19:36:33,593 log 27792 140382905898752 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:36:33,594 basehttp 27792 140382905898752 "GET /accounts/login/ HTTP/1.1" 500 127947
+INFO 2020-05-30 19:36:38,584 basehttp 27792 140382895671040 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 19:36:38,597 log 27792 140382895671040 Not Found: /accounts/profile/
+WARNING 2020-05-30 19:36:38,597 basehttp 27792 140382895671040 "GET /accounts/profile/ HTTP/1.1" 404 6769
+ERROR 2020-05-30 19:36:43,144 log 27792 140382895671040 Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 249, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 373, in logout
+    return LogoutView.as_view(**defaults)(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 123, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 158, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 156, in get_context_data
+    current_site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:36:43,146 basehttp 27792 140382895671040 "GET /admin/logout/ HTTP/1.1" 500 161157
+ERROR 2020-05-30 19:36:54,113 log 27792 140382895671040 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:36:54,114 basehttp 27792 140382895671040 "GET /accounts/login/ HTTP/1.1" 500 128796
+INFO 2020-05-30 19:38:04,717 autoreload 27792 140383026231040 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/settings.py changed, reloading.
+INFO 2020-05-30 19:38:05,281 autoreload 28047 140253564684032 Watching for file changes with StatReloader
+INFO 2020-05-30 19:38:06,783 autoreload 28047 140253564684032 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/settings.py changed, reloading.
+INFO 2020-05-30 19:38:07,458 autoreload 28053 140062316975872 Watching for file changes with StatReloader
+ERROR 2020-05-30 19:38:10,541 log 28053 140062196643584 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 138, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 95, in get
+    request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 169, in get_context_data
+    site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:38:10,544 basehttp 28053 140062196643584 "GET /accounts/login/ HTTP/1.1" 500 128803
+INFO 2020-05-30 19:38:15,243 basehttp 28053 140062196643584 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-05-30 19:38:15,311 log 28053 140062196643584 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:38:15,312 basehttp 28053 140062196643584 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 150635
+INFO 2020-05-30 19:38:20,513 basehttp 28053 140062196643584 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-05-30 19:38:20,617 log 28053 140062196643584 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:38:20,618 basehttp 28053 140062196643584 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 150635
+INFO 2020-05-30 19:38:32,187 autoreload 28105 139982690383616 Watching for file changes with StatReloader
+ERROR 2020-05-30 19:38:34,758 log 28105 139982502692608 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:38:34,766 basehttp 28105 139982502692608 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 150772
+INFO 2020-05-30 19:38:41,455 basehttp 28105 139982502692608 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-05-30 19:38:41,523 log 28105 139982502692608 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/views.py", line 97, in get_context_data
+    current_site = get_current_site(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 58, in get_current
+    return self._get_site_by_id(site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2020-05-30 19:38:41,524 basehttp 28105 139982502692608 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 150635
+INFO 2020-05-30 19:41:49,646 autoreload 28453 140214893848320 Watching for file changes with StatReloader
+INFO 2020-05-30 19:41:50,973 basehttp 28453 140214707083008 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:41:58,233 basehttp 28453 140214707083008 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:41:58,297 basehttp 28453 140214707083008 "GET /admin/ HTTP/1.1" 200 11578
+INFO 2020-05-30 19:42:12,705 basehttp 28453 140214707083008 "GET /admin/logout/ HTTP/1.1" 200 1211
+INFO 2020-05-30 19:42:15,140 basehttp 28453 140214707083008 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:42:15,159 basehttp 28453 140214707083008 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 19:42:25,204 basehttp 28453 140214707083008 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:42:25,262 basehttp 28453 140214707083008 "GET /admin/ HTTP/1.1" 200 11578
+INFO 2020-05-30 19:42:33,101 basehttp 28453 140214707083008 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-30 19:43:55,813 basehttp 28453 140214698690304 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:43:55,859 basehttp 28453 140214698690304 "GET /static/css/main.css HTTP/1.1" 200 1359
+INFO 2020-05-30 19:43:55,860 basehttp 28453 140214676571904 "GET /static/images/cart.png HTTP/1.1" 200 92001
+INFO 2020-05-30 19:43:55,862 basehttp 28453 140214668179200 "GET /images/headphones.jpg HTTP/1.1" 200 10782
+INFO 2020-05-30 19:43:56,644 basehttp 28453 140214676571904 "GET /static/js/cart.js HTTP/1.1" 200 1422
+INFO 2020-05-30 19:43:56,655 basehttp 28453 140214676571904 "GET /images/book.jpg HTTP/1.1" 200 22934
+INFO 2020-05-30 19:43:56,706 basehttp 28453 140214676571904 "GET /images/sourcecode.jpg HTTP/1.1" 200 22689
+INFO 2020-05-30 19:43:56,757 basehttp 28453 140214676571904 "GET /images/watch.jpg HTTP/1.1" 200 12779
+INFO 2020-05-30 19:43:56,801 basehttp 28453 140214668179200 "GET /images/shoes.jpg HTTP/1.1" 200 29593
+INFO 2020-05-30 19:43:56,804 basehttp 28453 140214698690304 "GET /images/shirt_HB0lGx0.jpg HTTP/1.1" 200 18895
+INFO 2020-05-30 19:44:07,145 basehttp 28453 140214668179200 "GET /accounts/login HTTP/1.1" 301 0
+INFO 2020-05-30 19:44:07,190 basehttp 28453 140214668179200 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-30 19:51:01,763 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 3875
+INFO 2020-05-30 19:51:01,812 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:51:04,101 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialaccount/add/ HTTP/1.1" 200 5787
+INFO 2020-05-30 19:51:04,154 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:51:09,238 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 3875
+INFO 2020-05-30 19:51:09,284 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:51:10,458 basehttp 28453 140214687151872 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-30 19:51:12,560 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-30 19:51:12,610 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:51:16,521 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7736
+INFO 2020-05-30 19:51:16,573 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:51:39,234 basehttp 28453 140214687151872 "POST /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:51:39,376 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 8067
+INFO 2020-05-30 19:51:39,462 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:51:43,859 basehttp 28453 140214687151872 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-30 19:51:47,767 basehttp 28453 140214687151872 "GET /logout_user/ HTTP/1.1" 200 4572
+INFO 2020-05-30 19:51:50,030 basehttp 28453 140214687151872 "GET /accounts/logout/?next=/ HTTP/1.1" 200 690
+INFO 2020-05-30 19:51:52,786 basehttp 28453 140214687151872 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:51:52,822 basehttp 28453 140214687151872 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-30 19:52:00,398 basehttp 28453 140214687151872 "GET /accounts/login/ HTTP/1.1" 200 1706
+INFO 2020-05-30 19:52:10,134 basehttp 28453 140214687151872 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-30 19:55:07,408 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:55:07,454 basehttp 28453 140214687151872 "GET /admin/login/?next=/admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 1983
+INFO 2020-05-30 19:55:42,638 basehttp 28453 140214687151872 "POST /admin/login/?next=/admin/socialaccount/socialapp/1/change/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:55:42,726 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7826
+INFO 2020-05-30 19:55:42,833 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:55:45,690 basehttp 28453 140214687151872 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-30 19:55:45,780 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:55:47,475 basehttp 28453 140214687151872 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-30 19:55:48,519 basehttp 28453 140214687151872 "GET /admin/ HTTP/1.1" 200 11603
+INFO 2020-05-30 19:55:50,975 basehttp 28453 140214687151872 "GET /admin/sites/site/ HTTP/1.1" 200 5372
+INFO 2020-05-30 19:55:51,021 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:55:59,089 basehttp 28453 140214687151872 "POST /admin/sites/site/ HTTP/1.1" 200 3470
+INFO 2020-05-30 19:56:00,705 basehttp 28453 140214687151872 "POST /admin/sites/site/ HTTP/1.1" 302 0
+INFO 2020-05-30 19:56:00,779 basehttp 28453 140214687151872 "GET /admin/sites/site/ HTTP/1.1" 200 5214
+INFO 2020-05-30 19:56:00,872 basehttp 28453 140214687151872 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 19:56:06,192 autoreload 28453 140214893848320 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/settings.py changed, reloading.
+INFO 2020-05-30 19:56:06,897 autoreload 29339 140227419784960 Watching for file changes with StatReloader
+INFO 2020-05-30 19:56:16,421 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 200 1567
+INFO 2020-05-30 19:56:17,393 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 200 1567
+INFO 2020-05-30 21:52:52,626 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 200 1567
+INFO 2020-05-30 21:52:57,654 basehttp 29339 140227299452672 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-30 21:53:13,743 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 200 1567
+INFO 2020-05-30 21:59:55,806 basehttp 29339 140227299452672 "GET /admin/sites/site/ HTTP/1.1" 200 5094
+INFO 2020-05-30 21:59:56,050 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-30 22:07:57,740 basehttp 29339 140227299452672 "GET /admin/sites/site/ HTTP/1.1" 200 5094
+INFO 2020-05-30 22:07:57,781 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:41:45,044 basehttp 29339 140227299452672 "GET /admin/sites/site/ HTTP/1.1" 200 5094
+INFO 2020-05-31 09:41:45,091 basehttp 29339 140227287299840 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,091 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:41:45,098 basehttp 29339 140227287299840 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,102 basehttp 29339 140227278120704 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,104 basehttp 29339 140227278120704 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,105 basehttp 29339 140226915723008 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,106 basehttp 29339 140227269728000 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,108 basehttp 29339 140226924115712 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,214 basehttp 29339 140227278120704 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-05-31 09:41:45,257 basehttp 29339 140227278120704 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2020-05-31 09:41:45,346 basehttp 29339 140227278120704 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:09,730 basehttp 29339 140227278120704 "GET /admin/sites/ HTTP/1.1" 200 2422
+INFO 2020-05-31 09:45:09,784 basehttp 29339 140227278120704 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:09,908 basehttp 29339 140227278120704 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:09,929 basehttp 29339 140227278120704 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:11,716 basehttp 29339 140227278120704 "GET /admin/ HTTP/1.1" 200 11588
+INFO 2020-05-31 09:45:14,236 basehttp 29339 140227278120704 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-31 09:45:14,294 basehttp 29339 140227278120704 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:45:16,849 basehttp 29339 140227278120704 "GET /admin/socialaccount/socialapp/2/change/ HTTP/1.1" 200 7678
+INFO 2020-05-31 09:45:16,901 basehttp 29339 140227278120704 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:45:16,931 basehttp 29339 140227287299840 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:16,941 basehttp 29339 140227278120704 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12318
+INFO 2020-05-31 09:45:17,002 basehttp 29339 140227278120704 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:17,003 basehttp 29339 140227287299840 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:17,030 basehttp 29339 140227299452672 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+INFO 2020-05-31 09:45:17,175 basehttp 29339 140227299452672 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2020-05-31 09:45:17,216 basehttp 29339 140227299452672 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2020-05-31 09:45:17,221 basehttp 29339 140227278120704 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2020-05-31 09:45:40,852 basehttp 29339 140227299452672 "POST /admin/socialaccount/socialapp/2/change/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:45:40,920 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 5147
+INFO 2020-05-31 09:45:41,005 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:45:41,136 basehttp 29339 140227299452672 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2020-05-31 09:45:47,107 basehttp 29339 140226907330304 "GET /accounts/login/ HTTP/1.1" 200 1567
+INFO 2020-05-31 09:45:48,660 basehttp 29339 140226907330304 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 09:46:09,983 basehttp 29339 140226907330304 "GET /accounts/google/login/callback HTTP/1.1" 301 0
+INFO 2020-05-31 09:46:10,034 basehttp 29339 140226907330304 "GET /accounts/google/login/callback/ HTTP/1.1" 200 487
+INFO 2020-05-31 09:46:25,716 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7759
+INFO 2020-05-31 09:46:25,774 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:46:31,680 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-31 09:46:31,717 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:46:33,385 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/2/change/ HTTP/1.1" 200 7768
+INFO 2020-05-31 09:46:33,457 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:46:39,795 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-31 09:46:39,835 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:46:41,442 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7759
+INFO 2020-05-31 09:46:41,485 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:47:23,442 basehttp 29339 140227299452672 "POST /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:47:23,572 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 5147
+INFO 2020-05-31 09:47:23,664 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:47:30,027 basehttp 29339 140226907330304 "GET /accounts/login/ HTTP/1.1" 200 1567
+ERROR 2020-05-31 09:47:31,713 log 29339 140226907330304 Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 96, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/adapter.py", line 203, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/models.py", line 34, in get_current
+    provider=provider)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 422, in get
+    num if not limit or num < limit else 'more than %s' % (limit - 1),
+allauth.socialaccount.models.SocialApp.MultipleObjectsReturned: get() returned more than one SocialApp -- it returned 2!
+ERROR 2020-05-31 09:47:31,715 basehttp 29339 140226907330304 "GET /accounts/google/login/?process=login HTTP/1.1" 500 98262
+INFO 2020-05-31 09:47:45,359 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 200 7768
+INFO 2020-05-31 09:47:45,416 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:47:56,837 basehttp 29339 140227299452672 "POST /admin/socialaccount/socialapp/1/change/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:47:56,952 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 5147
+INFO 2020-05-31 09:47:57,038 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:09,393 basehttp 29339 140227299452672 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-31 09:48:11,630 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 200 11619
+INFO 2020-05-31 09:48:13,360 basehttp 29339 140227299452672 "GET /admin/sites/site/ HTTP/1.1" 200 5094
+INFO 2020-05-31 09:48:13,422 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:15,167 basehttp 29339 140227299452672 "GET /admin/sites/site/3/change/ HTTP/1.1" 200 4704
+INFO 2020-05-31 09:48:15,228 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:18,921 basehttp 29339 140227299452672 "GET /admin/sites/site/ HTTP/1.1" 200 5094
+INFO 2020-05-31 09:48:18,968 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:21,069 basehttp 29339 140227299452672 "GET /admin/sites/site/3/change/ HTTP/1.1" 200 4704
+INFO 2020-05-31 09:48:21,114 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:33,042 basehttp 29339 140227299452672 "POST /admin/sites/site/3/change/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:48:33,171 basehttp 29339 140227299452672 "GET /admin/sites/site/ HTTP/1.1" 200 5280
+INFO 2020-05-31 09:48:33,275 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:42,592 basehttp 29339 140227299452672 "GET /admin/sites/ HTTP/1.1" 200 2422
+INFO 2020-05-31 09:48:44,393 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 200 11595
+INFO 2020-05-31 09:48:48,066 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-31 09:48:48,109 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:49,872 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/2/change/ HTTP/1.1" 200 7768
+INFO 2020-05-31 09:48:49,920 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:48:56,417 basehttp 29339 140227299452672 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-31 09:49:01,480 basehttp 29339 140226907330304 "GET /accounts/login/ HTTP/1.1" 200 1568
+ERROR 2020-05-31 09:49:04,433 log 29339 140226907330304 Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 96, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/adapter.py", line 203, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/models.py", line 34, in get_current
+    provider=provider)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/query.py", line 422, in get
+    num if not limit or num < limit else 'more than %s' % (limit - 1),
+allauth.socialaccount.models.SocialApp.MultipleObjectsReturned: get() returned more than one SocialApp -- it returned 2!
+ERROR 2020-05-31 09:49:04,435 basehttp 29339 140226907330304 "GET /accounts/google/login/?process=login HTTP/1.1" 500 98262
+INFO 2020-05-31 09:49:14,633 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4935
+INFO 2020-05-31 09:49:14,686 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:49:22,941 basehttp 29339 140227299452672 "POST /admin/socialaccount/socialapp/ HTTP/1.1" 200 3566
+INFO 2020-05-31 09:49:23,031 basehttp 29339 140227299452672 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2020-05-31 09:49:24,816 basehttp 29339 140227299452672 "POST /admin/socialaccount/socialapp/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:49:24,862 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 4800
+INFO 2020-05-31 09:49:24,949 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 09:49:31,785 basehttp 29339 140226907330304 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 09:51:18,931 basehttp 29339 140226907330304 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-31 09:51:20,631 basehttp 29339 140226907330304 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 09:51:37,347 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-31 09:51:37,705 log 29339 140227299452672 Not Found: /accounts/profile/
+WARNING 2020-05-31 09:51:37,705 basehttp 29339 140227299452672 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 09:51:43,421 basehttp 29339 140227299452672 "GET /admin/logout/ HTTP/1.1" 200 1211
+INFO 2020-05-31 09:51:46,604 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-31 09:51:50,765 basehttp 29339 140227299452672 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 09:52:00,490 basehttp 29339 140227299452672 "GET /accounts/google/login/callback/?state=r2zVoJMuIuES&code=4%2F0QEM-40UyLOAqeMRAtYFCcPLeUyxam7Yifzm_uH3KJ0jJeiLEkFROdqCg1AUPiO53d0H2YlZqxYMJPz7oZWF4ow&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 09:52:00,506 log 29339 140227299452672 Not Found: /accounts/profile/
+WARNING 2020-05-31 09:52:00,507 basehttp 29339 140227299452672 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 09:52:15,678 basehttp 29339 140227299452672 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:52:15,695 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-31 09:52:15,810 basehttp 29339 140227299452672 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2209
+INFO 2020-05-31 09:52:15,925 basehttp 29339 140227299452672 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+ERROR 2020-05-31 09:52:20,802 log 29339 140227299452672 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 09:52:20,804 basehttp 29339 140227299452672 "GET / HTTP/1.1" 500 81275
+ERROR 2020-05-31 09:53:56,808 log 29339 140227299452672 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 09:53:56,843 basehttp 29339 140227299452672 "GET / HTTP/1.1" 500 81282
+WARNING 2020-05-31 10:26:23,282 log 29339 140227299452672 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:26:23,310 basehttp 29339 140227299452672 "GET /accounts/profile/ HTTP/1.1" 404 6769
+ERROR 2020-05-31 10:32:24,819 log 29339 140227299452672 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:32:24,879 basehttp 29339 140227299452672 "GET / HTTP/1.1" 500 81282
+INFO 2020-05-31 10:32:33,282 basehttp 29339 140227299452672 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-31 10:32:33,342 log 29339 140227299452672 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:32:33,343 basehttp 29339 140227299452672 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 10:32:48,914 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-31 10:32:49,110 basehttp 29339 140227299452672 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2077
+INFO 2020-05-31 10:33:02,353 basehttp 29339 140227299452672 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-31 10:33:04,873 basehttp 29339 140227299452672 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-31 10:33:04,975 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 200 11608
+INFO 2020-05-31 10:33:10,686 basehttp 29339 140227299452672 "GET /admin/store/customer/ HTTP/1.1" 200 4578
+INFO 2020-05-31 10:33:10,768 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 10:33:13,216 basehttp 29339 140227299452672 "GET /admin/store/customer/1/change/ HTTP/1.1" 200 5873
+INFO 2020-05-31 10:33:13,258 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 10:33:15,701 basehttp 29339 140227299452672 "GET /admin/store/customer/ HTTP/1.1" 200 4578
+INFO 2020-05-31 10:33:17,078 basehttp 29339 140227299452672 "GET /admin/store/customer/2/change/ HTTP/1.1" 200 5872
+INFO 2020-05-31 10:33:17,127 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 10:33:28,553 basehttp 29339 140227299452672 "POST /admin/store/customer/2/change/ HTTP/1.1" 302 0
+INFO 2020-05-31 10:33:28,613 basehttp 29339 140227299452672 "GET /admin/store/customer/ HTTP/1.1" 200 4774
+INFO 2020-05-31 10:33:28,729 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 10:33:31,526 basehttp 29339 140227299452672 "GET /admin/store/customer/2/change/ HTTP/1.1" 200 5872
+INFO 2020-05-31 10:33:34,130 basehttp 29339 140227299452672 "GET /admin/store/ HTTP/1.1" 200 4220
+INFO 2020-05-31 10:33:38,431 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 200 11592
+INFO 2020-05-31 10:33:45,228 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 5475
+INFO 2020-05-31 10:33:45,280 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 10:33:47,329 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialaccount/1/change/ HTTP/1.1" 200 6833
+INFO 2020-05-31 10:33:47,379 basehttp 29339 140227299452672 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 10:33:51,777 basehttp 29339 140227299452672 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 5475
+INFO 2020-05-31 10:33:53,139 basehttp 29339 140227299452672 "GET /admin/ HTTP/1.1" 200 11592
+WARNING 2020-05-31 10:33:54,838 log 29339 140227299452672 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:33:54,841 basehttp 29339 140227299452672 "GET /accounts/profile/ HTTP/1.1" 404 6769
+WARNING 2020-05-31 10:33:57,645 log 29339 140227299452672 Not Found: /accounts/
+WARNING 2020-05-31 10:33:57,646 basehttp 29339 140227299452672 "GET /accounts/ HTTP/1.1" 404 6745
+INFO 2020-05-31 10:34:01,794 basehttp 29339 140227299452672 "GET / HTTP/1.1" 200 7531
+INFO 2020-05-31 10:34:03,433 basehttp 29339 140227299452672 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2020-05-31 10:34:03,469 basehttp 29339 140227299452672 "GET /images/headphones.jpg HTTP/1.1" 304 0
+INFO 2020-05-31 10:34:03,940 basehttp 29339 140227299452672 "GET /images/watch.jpg HTTP/1.1" 304 0
+INFO 2020-05-31 10:34:18,001 basehttp 29339 140226907330304 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-31 10:34:19,739 basehttp 29339 140226907330304 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 10:34:50,067 basehttp 29339 140226907330304 "GET /accounts/google/login/callback/?state=jkVnUUKLe8ev&code=4%2F0QGYlgWIrmL0AmRlBQWr2d_slR-nrHJ4DgpmFAkyHRmZ7fvg8gCP_6GwjqfkIRw-OKwkvvyOwHVda6EQtAqPoEc&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 10:34:50,100 log 29339 140226907330304 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:34:50,100 basehttp 29339 140226907330304 "GET /accounts/profile/ HTTP/1.1" 404 6769
+ERROR 2020-05-31 10:34:55,654 log 29339 140226907330304 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:34:55,655 basehttp 29339 140226907330304 "GET / HTTP/1.1" 500 81322
+INFO 2020-05-31 10:36:59,284 autoreload 29339 140227419784960 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/settings.py changed, reloading.
+INFO 2020-05-31 10:37:03,105 autoreload 6641 139639643694848 Watching for file changes with StatReloader
+INFO 2020-05-31 10:37:52,497 autoreload 6641 139639643694848 /home/mieone/Downloads/django-ecommerce/ecommerce/store/signals.py changed, reloading.
+INFO 2020-05-31 10:37:53,052 autoreload 6705 139661898934016 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:38:22,634 log 6705 139661711423232 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:38:22,636 basehttp 6705 139661711423232 "GET / HTTP/1.1" 500 81363
+INFO 2020-05-31 10:39:33,516 basehttp 6705 139661711423232 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-31 10:39:33,636 log 6705 139661711423232 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:39:33,636 basehttp 6705 139661711423232 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 10:39:43,852 basehttp 6705 139661711423232 "GET /accounts/logout HTTP/1.1" 301 0
+INFO 2020-05-31 10:39:44,034 basehttp 6705 139661711423232 "GET /accounts/logout/ HTTP/1.1" 200 790
+INFO 2020-05-31 10:39:48,370 basehttp 6705 139661711423232 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 10:39:50,857 basehttp 6705 139661711423232 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 10:39:50,922 basehttp 6705 139661711423232 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-31 10:39:51,047 basehttp 6705 139661711423232 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2020-05-31 10:40:05,711 basehttp 6705 139661711423232 "GET /accounts/login/ HTTP/1.1" 200 1706
+INFO 2020-05-31 10:40:08,578 basehttp 6705 139661711423232 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+ERROR 2020-05-31 10:40:12,370 log 6705 139661711423232 Internal Server Error: /accounts/google/login/callback/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 143, in dispatch
+    return complete_social_login(request, login)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/helpers.py", line 152, in complete_social_login
+    return _complete_social_login(request, sociallogin)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/helpers.py", line 167, in _complete_social_login
+    ret = _login_social_account(request, sociallogin)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/socialaccount/helpers.py", line 55, in _login_social_account
+    signal_kwargs={"sociallogin": sociallogin})
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/utils.py", line 159, in perform_login
+    adapter.login(request, user)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/adapter.py", line 391, in login
+    django_login(request, user)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 131, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 66, in save
+    super().save(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/base.py", line 795, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+TypeError: customer_profile() missing 1 required positional argument: 'create'
+ERROR 2020-05-31 10:40:12,375 basehttp 6705 139661711423232 "GET /accounts/google/login/callback/?state=hfBQZ4E5WPTb&code=4%2F0QHURhzBJBYwzjca0Y6JADG4fFAYf1SBy7clNE4QW5hvLbuQZuYQONRpI2gx1l1bDb_Yg5yuQZCrRWXLFEuGNZk&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 500 147364
+INFO 2020-05-31 10:41:27,430 autoreload 6705 139661898934016 /home/mieone/Downloads/django-ecommerce/ecommerce/store/signals.py changed, reloading.
+INFO 2020-05-31 10:41:47,461 autoreload 7133 140109294511872 Watching for file changes with StatReloader
+INFO 2020-05-31 10:42:27,812 basehttp 7133 140109174179584 "GET /accounts/google/login/callback/?state=hfBQZ4E5WPTb&code=4%2F0QHURhzBJBYwzjca0Y6JADG4fFAYf1SBy7clNE4QW5hvLbuQZuYQONRpI2gx1l1bDb_Yg5yuQZCrRWXLFEuGNZk&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 200 487
+INFO 2020-05-31 10:42:43,128 basehttp 7133 140109174179584 "GET /accounts/signup/ HTTP/1.1" 200 1332
+INFO 2020-05-31 10:42:47,623 basehttp 7133 140109174179584 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-31 10:42:55,517 basehttp 7133 140109174179584 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-31 10:42:58,006 basehttp 7133 140109174179584 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 10:43:01,176 basehttp 7133 140109174179584 "GET /accounts/google/login/callback/?state=cg6DtzmocNmh&code=4%2F0QEQRmXyWC0KvhQebTKJAPB3t_PAC-DdHMU9DAAbCPn6j9ZICDPSO7zkIgukdre9gwpt25DUVhEEppWvXXttFxA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 10:43:01,230 log 7133 140109174179584 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:43:01,230 basehttp 7133 140109174179584 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 10:43:07,538 basehttp 7133 140109174179584 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-31 10:43:07,549 log 7133 140109174179584 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:43:07,550 basehttp 7133 140109174179584 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 10:43:10,442 basehttp 7133 140109174179584 "GET /accounts/logout/ HTTP/1.1" 200 790
+INFO 2020-05-31 10:43:14,320 basehttp 7133 140109174179584 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 10:43:16,194 basehttp 7133 140109174179584 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 10:43:18,370 basehttp 7133 140109174179584 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 10:43:18,379 basehttp 7133 140109174179584 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-31 10:43:22,975 basehttp 7133 140109174179584 "GET /accounts/login/ HTTP/1.1" 200 1706
+INFO 2020-05-31 10:43:24,979 basehttp 7133 140109174179584 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 10:43:28,389 basehttp 7133 140109174179584 "GET /accounts/google/login/callback/?state=53GVQKPTMeH0&code=4%2F0QHVg5VQYjNwkgpP8Qh3USQgYJ9oqMUowIYvg4AHEw1i8iY8rGvGWOBauXtSHmaClTfsLxzQbs8jUqweDHDuAjw&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 10:43:44,228 basehttp 7133 140109174179584 "GET / HTTP/1.1" 200 7546
+INFO 2020-05-31 10:43:44,317 basehttp 7133 140109174179584 "GET /static/css/main.css HTTP/1.1" 200 1359
+INFO 2020-05-31 10:43:44,391 basehttp 7133 140109072557824 "GET /images/headphones.jpg HTTP/1.1" 200 10782
+INFO 2020-05-31 10:43:44,397 basehttp 7133 140109080950528 "GET /static/images/cart.png HTTP/1.1" 200 92001
+INFO 2020-05-31 10:43:45,344 basehttp 7133 140109080950528 "GET /static/js/cart.js HTTP/1.1" 200 1422
+INFO 2020-05-31 10:43:45,391 basehttp 7133 140109080950528 "GET /images/book.jpg HTTP/1.1" 200 22934
+INFO 2020-05-31 10:43:45,440 basehttp 7133 140109080950528 "GET /images/sourcecode.jpg HTTP/1.1" 200 22689
+INFO 2020-05-31 10:43:45,490 basehttp 7133 140109080950528 "GET /images/watch.jpg HTTP/1.1" 200 12779
+INFO 2020-05-31 10:43:45,539 basehttp 7133 140109080950528 "GET /images/shoes.jpg HTTP/1.1" 200 29593
+INFO 2020-05-31 10:43:45,595 basehttp 7133 140109080950528 "GET /images/shirt_HB0lGx0.jpg HTTP/1.1" 200 18895
+INFO 2020-05-31 10:45:54,664 basehttp 7133 140109080950528 "GET / HTTP/1.1" 200 7581
+INFO 2020-05-31 10:45:57,503 basehttp 7133 140109080950528 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 10:46:25,224 basehttp 7133 140109080950528 "GET /accounts/google/login/callback/?state=dd2t5gKghgPc&code=4%2F0QHU8mU3mKODxG4bzs_VaXlLTlJRGvVMpVQYryV-ZK9tp_P4sOjeCVHFXuQTeae_G1M-1BtJ9CjKWt8vFiQOTKw&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 10:46:25,234 log 7133 140109080950528 Not Found: /accounts/profile/
+WARNING 2020-05-31 10:46:25,234 basehttp 7133 140109080950528 "GET /accounts/profile/ HTTP/1.1" 404 6769
+ERROR 2020-05-31 10:46:36,193 log 7133 140109080950528 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:46:36,195 basehttp 7133 140109080950528 "GET / HTTP/1.1" 500 81226
+INFO 2020-05-31 10:46:52,194 autoreload 7774 139687811028736 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:46:54,751 log 7774 139687624283904 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:46:54,754 basehttp 7774 139687624283904 "GET / HTTP/1.1" 500 81363
+INFO 2020-05-31 10:48:20,009 autoreload 7774 139687811028736 /home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py changed, reloading.
+INFO 2020-05-31 10:48:21,379 autoreload 7834 139939258578688 Watching for file changes with StatReloader
+INFO 2020-05-31 10:48:29,711 autoreload 7834 139939258578688 /home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py changed, reloading.
+INFO 2020-05-31 10:48:30,380 autoreload 7854 140022782940928 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:48:33,474 log 7854 140022662608640 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 54, in cartData
+    customer=customer, complete=False)
+UnboundLocalError: local variable 'customer' referenced before assignment
+ERROR 2020-05-31 10:48:33,476 basehttp 7854 140022662608640 "GET / HTTP/1.1" 500 72917
+INFO 2020-05-31 10:49:10,849 autoreload 7854 140022782940928 /home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py changed, reloading.
+INFO 2020-05-31 10:49:11,469 autoreload 7901 140300553541376 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:49:12,290 log 7901 140300433995520 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 64, in cartData
+    return {'cartItems': cartItems, 'order': order, 'items': items}
+UnboundLocalError: local variable 'cartItems' referenced before assignment
+ERROR 2020-05-31 10:49:12,291 basehttp 7901 140300433995520 "GET / HTTP/1.1" 500 72951
+ERROR 2020-05-31 10:49:14,235 log 7901 140300433995520 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 64, in cartData
+    return {'cartItems': cartItems, 'order': order, 'items': items}
+UnboundLocalError: local variable 'cartItems' referenced before assignment
+ERROR 2020-05-31 10:49:14,235 basehttp 7901 140300433995520 "GET / HTTP/1.1" 500 72951
+INFO 2020-05-31 10:49:51,997 autoreload 7901 140300553541376 /home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py changed, reloading.
+INFO 2020-05-31 10:49:52,640 autoreload 7940 140539749316352 Watching for file changes with StatReloader
+INFO 2020-05-31 10:51:25,529 autoreload 7940 140539749316352 /home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py changed, reloading.
+INFO 2020-05-31 10:51:26,180 autoreload 8088 140309138941696 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:51:27,962 log 8088 140309019395840 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 14, in store
+    cartItems = data['cartItems']
+TypeError: string indices must be integers
+ERROR 2020-05-31 10:51:27,964 basehttp 8088 140309019395840 "GET / HTTP/1.1" 500 69251
+INFO 2020-05-31 10:52:37,377 autoreload 8088 140309138941696 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:52:38,074 autoreload 8174 139889009866496 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:52:40,234 log 8174 139888822261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'TypeError' object has no attribute 'get'
+ERROR 2020-05-31 10:52:40,235 basehttp 8174 139888822261504 "GET / HTTP/1.1" 500 62048
+ERROR 2020-05-31 10:53:08,205 log 8174 139888822261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'TypeError' object has no attribute 'get'
+ERROR 2020-05-31 10:53:08,206 basehttp 8174 139888822261504 "GET / HTTP/1.1" 500 62048
+ERROR 2020-05-31 10:53:08,892 log 8174 139888822261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'TypeError' object has no attribute 'get'
+ERROR 2020-05-31 10:53:08,892 basehttp 8174 139888822261504 "GET / HTTP/1.1" 500 62048
+ERROR 2020-05-31 10:53:12,707 log 8174 139888822261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'TypeError' object has no attribute 'get'
+ERROR 2020-05-31 10:53:12,708 basehttp 8174 139888822261504 "GET / HTTP/1.1" 500 62048
+INFO 2020-05-31 10:55:26,627 autoreload 8174 139889009866496 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:55:50,824 autoreload 8413 139921648838400 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:55:54,637 log 8413 139921528506112 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'TypeError' object has no attribute 'get'
+ERROR 2020-05-31 10:55:54,638 basehttp 8413 139921528506112 "GET / HTTP/1.1" 500 62048
+INFO 2020-05-31 10:56:23,985 autoreload 8413 139921648838400 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:56:24,646 autoreload 8550 140251785500416 Watching for file changes with StatReloader
+INFO 2020-05-31 10:56:40,078 autoreload 8550 140251785500416 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:56:40,634 autoreload 8574 140320473466624 Watching for file changes with StatReloader
+ERROR 2020-05-31 10:56:41,698 log 8574 140320353920768 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 14, in store
+    cartItems = data['cartItems']
+TypeError: string indices must be integers
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 20, in store
+    return render(request, 'store/store.html', context)
+UnboundLocalError: local variable 'context' referenced before assignment
+ERROR 2020-05-31 10:56:41,699 basehttp 8574 140320353920768 "GET / HTTP/1.1" 500 73627
+INFO 2020-05-31 10:56:53,013 autoreload 8574 140320473466624 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:56:53,645 autoreload 8598 139950535931648 Watching for file changes with StatReloader
+INFO 2020-05-31 10:56:54,238 basehttp 8598 139950349268736 "GET / HTTP/1.1" 200 4427
+INFO 2020-05-31 10:56:57,381 basehttp 8598 139950349268736 "GET / HTTP/1.1" 200 4427
+INFO 2020-05-31 10:57:34,042 autoreload 8598 139950535931648 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:57:34,660 autoreload 8648 139889934415616 Watching for file changes with StatReloader
+INFO 2020-05-31 10:57:40,542 autoreload 8648 139889934415616 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 10:57:41,541 autoreload 8668 139757870556928 Watching for file changes with StatReloader
+INFO 2020-05-31 10:57:43,195 basehttp 8668 139757683754752 "GET / HTTP/1.1" 200 7530
+ERROR 2020-05-31 10:58:24,313 log 8668 139757683754752 Internal Server Error: /update_item/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 61, in updateItem
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:58:24,430 basehttp 8668 139757683754752 "POST /update_item/ HTTP/1.1" 500 78590
+ERROR 2020-05-31 10:58:49,405 log 8668 139757683754752 Internal Server Error: /update_item/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 61, in updateItem
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 10:58:49,424 basehttp 8668 139757683754752 "POST /update_item/ HTTP/1.1" 500 78590
+INFO 2020-05-31 11:01:35,192 basehttp 8668 139757683754752 "GET / HTTP/1.1" 200 7572
+ERROR 2020-05-31 11:01:45,799 log 8668 139757683754752 Internal Server Error: /update_item/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 61, in updateItem
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 11:01:45,800 basehttp 8668 139757683754752 "POST /update_item/ HTTP/1.1" 500 78590
+INFO 2020-05-31 11:03:03,072 autoreload 8668 139757870556928 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 11:03:14,061 autoreload 8946 140692298569472 Watching for file changes with StatReloader
+INFO 2020-05-31 11:03:29,206 autoreload 8946 140692298569472 /home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py changed, reloading.
+INFO 2020-05-31 11:03:40,049 autoreload 8972 140168299828992 Watching for file changes with StatReloader
+INFO 2020-05-31 11:04:19,477 autoreload 8972 140168299828992 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 11:04:20,390 autoreload 9107 140649109714688 Watching for file changes with StatReloader
+INFO 2020-05-31 11:04:27,468 autoreload 9107 140649109714688 /home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py changed, reloading.
+INFO 2020-05-31 11:04:28,143 autoreload 9135 139699288835840 Watching for file changes with StatReloader
+ERROR 2020-05-31 11:04:38,438 log 9135 139699101382400 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 11:04:38,442 basehttp 9135 139699101382400 "GET / HTTP/1.1" 500 81514
+INFO 2020-05-31 11:04:58,530 basehttp 9135 139699101382400 "GET /accounts/logout HTTP/1.1" 301 0
+INFO 2020-05-31 11:04:58,731 basehttp 9135 139699101382400 "GET /accounts/logout/ HTTP/1.1" 200 790
+INFO 2020-05-31 11:05:01,006 basehttp 9135 139699101382400 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 11:05:02,670 basehttp 9135 139699101382400 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:05:02,754 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7581
+INFO 2020-05-31 11:05:05,339 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7581
+INFO 2020-05-31 11:05:06,855 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7581
+INFO 2020-05-31 11:05:09,173 basehttp 9135 139699101382400 "GET /cart/ HTTP/1.1" 200 7348
+INFO 2020-05-31 11:05:09,234 basehttp 9135 139699091416832 "GET /static/images/arrow-down.png HTTP/1.1" 200 25650
+INFO 2020-05-31 11:05:09,243 basehttp 9135 139699101382400 "GET /static/images/arrow-up.png HTTP/1.1" 200 18590
+INFO 2020-05-31 11:05:12,925 basehttp 9135 139699101382400 "GET /cart/ HTTP/1.1" 200 7348
+INFO 2020-05-31 11:05:14,018 basehttp 9135 139699101382400 "GET /cart/ HTTP/1.1" 200 7348
+INFO 2020-05-31 11:05:15,423 basehttp 9135 139699101382400 "GET /cart/ HTTP/1.1" 200 7348
+INFO 2020-05-31 11:05:16,778 basehttp 9135 139699101382400 "GET /checkout/ HTTP/1.1" 200 10852
+INFO 2020-05-31 11:06:03,053 basehttp 9135 139699101382400 "GET /checkout/ HTTP/1.1" 200 10861
+INFO 2020-05-31 11:06:05,127 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7590
+INFO 2020-05-31 11:08:36,875 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7703
+INFO 2020-05-31 11:09:04,255 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7728
+INFO 2020-05-31 11:09:19,991 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7749
+INFO 2020-05-31 11:10:13,251 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7785
+INFO 2020-05-31 11:10:31,465 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7808
+INFO 2020-05-31 11:10:32,585 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7808
+INFO 2020-05-31 11:10:32,819 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7808
+INFO 2020-05-31 11:10:32,965 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7808
+INFO 2020-05-31 11:10:38,475 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7808
+INFO 2020-05-31 11:10:44,665 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7796
+INFO 2020-05-31 11:11:03,852 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7789
+INFO 2020-05-31 11:11:25,335 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7818
+INFO 2020-05-31 11:11:28,147 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7818
+INFO 2020-05-31 11:12:11,213 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7982
+INFO 2020-05-31 11:12:42,078 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7996
+INFO 2020-05-31 11:15:15,456 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7996
+INFO 2020-05-31 11:16:06,211 basehttp 9135 139699101382400 "GET / HTTP/1.1" 200 7994
+INFO 2020-05-31 11:19:56,307 autoreload 10368 139872184915712 Watching for file changes with StatReloader
+INFO 2020-05-31 11:24:29,445 autoreload 10722 140274535565056 Watching for file changes with StatReloader
+INFO 2020-05-31 11:24:34,434 basehttp 10722 140274347456256 "GET / HTTP/1.1" 200 7994
+INFO 2020-05-31 11:26:34,323 basehttp 10722 140274347456256 "GET / HTTP/1.1" 200 7944
+INFO 2020-05-31 11:26:39,165 basehttp 10722 140274347456256 "GET /?csrfmiddlewaretoken=65ZQ0rTLePluyxOoJHPGpmjnfxiArUYWX52kBraCHTFQspC8ZgKupa9s1VUUIj34&search= HTTP/1.1" 200 7944
+INFO 2020-05-31 11:26:51,012 basehttp 10722 140274327697152 "GET / HTTP/1.1" 200 7994
+INFO 2020-05-31 11:26:51,074 basehttp 10722 140274327697152 "GET /static/css/main.css HTTP/1.1" 200 1359
+INFO 2020-05-31 11:26:51,098 basehttp 10722 140274319304448 "GET /static/images/cart.png HTTP/1.1" 200 92001
+INFO 2020-05-31 11:26:51,104 basehttp 10722 140274101647104 "GET /images/headphones.jpg HTTP/1.1" 200 10782
+INFO 2020-05-31 11:26:54,079 basehttp 10722 140274101647104 "GET /static/js/cart.js HTTP/1.1" 200 1422
+INFO 2020-05-31 11:26:54,095 basehttp 10722 140274101647104 "GET /images/book.jpg HTTP/1.1" 200 22934
+INFO 2020-05-31 11:26:54,149 basehttp 10722 140274101647104 "GET /images/sourcecode.jpg HTTP/1.1" 200 22689
+INFO 2020-05-31 11:26:54,213 basehttp 10722 140274101647104 "GET /images/watch.jpg HTTP/1.1" 200 12779
+INFO 2020-05-31 11:26:54,271 basehttp 10722 140274101647104 "GET /images/shoes.jpg HTTP/1.1" 200 29593
+INFO 2020-05-31 11:26:54,342 basehttp 10722 140274101647104 "GET /images/shirt_HB0lGx0.jpg HTTP/1.1" 200 18895
+INFO 2020-05-31 11:26:59,164 basehttp 10722 140274101647104 "GET /accounts/login HTTP/1.1" 301 0
+INFO 2020-05-31 11:26:59,472 basehttp 10722 140274101647104 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-31 11:27:02,682 basehttp 10722 140274101647104 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:27:07,149 basehttp 10722 140274101647104 "GET /accounts/login/ HTTP/1.1" 200 1568
+INFO 2020-05-31 11:27:09,344 basehttp 10722 140274101647104 "GET /accounts/signup/ HTTP/1.1" 200 1332
+ERROR 2020-05-31 11:27:36,960 log 10722 140274101647104 Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 215, in dispatch
+    return super(SignupView, self).dispatch(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 81, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 193, in dispatch
+    **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 104, in post
+    response = self.form_valid(form)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/views.py", line 236, in form_valid
+    self.get_success_url())
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/utils.py", line 192, in complete_signup
+    signal_kwargs=signal_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/utils.py", line 152, in perform_login
+    send_email_confirmation(request, user, signup=signup)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/utils.py", line 323, in send_email_confirmation
+    signup=signup)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/models.py", line 58, in send_confirmation
+    confirmation.send(request, signup=signup)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/models.py", line 163, in send
+    get_adapter(request).send_confirmation_mail(request, self, signup)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/adapter.py", line 455, in send_confirmation_mail
+    ctx)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/allauth/account/adapter.py", line 137, in send_mail
+    msg.send()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/mail/message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/mail/backends/smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/mail/backends/smtp.py", line 62, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+ERROR 2020-05-31 11:27:36,963 basehttp 10722 140274101647104 "POST /accounts/signup/ HTTP/1.1" 500 179099
+INFO 2020-05-31 11:28:05,159 basehttp 10722 140274101647104 "POST /accounts/signup/ HTTP/1.1" 200 1541
+INFO 2020-05-31 11:28:10,736 basehttp 10722 140274101647104 "POST /accounts/signup/ HTTP/1.1" 200 1541
+INFO 2020-05-31 11:30:15,770 basehttp 10722 140274101647104 "POST /accounts/signup/ HTTP/1.1" 200 1541
+INFO 2020-05-31 11:30:27,325 basehttp 10722 140274101647104 "POST /accounts/signup/ HTTP/1.1" 200 1541
+INFO 2020-05-31 11:30:40,182 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7994
+INFO 2020-05-31 11:30:58,534 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:31:00,690 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:31:01,611 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:31:10,580 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:31:11,585 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:31:15,403 basehttp 10722 140274101647104 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:31:57,031 basehttp 10722 140274101647104 "GET /accounts/google/login/callback/?state=s9yzV9lU4E70&code=4%2F0QEHCtW4UF70UjyC1eJF3vzoA-5BWxubuuLi7T2QqSGj71VxvbiAecm7HRw56oxIIkEpoKiYw4_qwV6dmDvYcak&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 11:31:57,086 log 10722 140274101647104 Not Found: /accounts/profile/
+WARNING 2020-05-31 11:31:57,086 basehttp 10722 140274101647104 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 11:32:11,354 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7977
+INFO 2020-05-31 11:32:19,609 basehttp 10722 140274101647104 "GET / HTTP/1.1" 200 7977
+INFO 2020-05-31 11:32:21,228 basehttp 10722 140274101647104 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:32:21,363 basehttp 10722 140274101647104 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2193
+INFO 2020-05-31 11:32:21,557 basehttp 10722 140274101647104 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2020-05-31 11:32:21,563 basehttp 10722 140274319304448 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+INFO 2020-05-31 11:32:21,579 basehttp 10722 140274327697152 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2020-05-31 11:32:21,591 basehttp 10722 140274101647104 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-05-31 11:32:21,642 basehttp 10722 140274101647104 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2020-05-31 11:32:21,727 basehttp 10722 140274101647104 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-05-31 11:32:21,734 basehttp 10722 140274327697152 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2020-05-31 11:32:21,744 basehttp 10722 140274319304448 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-05-31 11:32:36,396 basehttp 10722 140274088920832 "GET /admin/ HTTP/1.1" 200 11592
+INFO 2020-05-31 11:32:39,547 basehttp 10722 140274088920832 "GET /admin/auth/user/ HTTP/1.1" 200 8735
+INFO 2020-05-31 11:32:40,131 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:32:48,164 basehttp 10722 140274088920832 "GET /admin/auth/ HTTP/1.1" 200 2972
+INFO 2020-05-31 11:32:50,219 basehttp 10722 140274088920832 "GET /admin/ HTTP/1.1" 200 11592
+INFO 2020-05-31 11:32:53,109 basehttp 10722 140274088920832 "GET /admin/store/customer/ HTTP/1.1" 200 5017
+INFO 2020-05-31 11:32:53,146 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:32:55,471 basehttp 10722 140274088920832 "GET /admin/store/customer/3/change/ HTTP/1.1" 200 5947
+INFO 2020-05-31 11:32:55,526 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:32:58,612 basehttp 10722 140274088920832 "GET /admin/store/customer/ HTTP/1.1" 200 5017
+INFO 2020-05-31 11:32:58,660 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:32:59,541 basehttp 10722 140274088920832 "GET /admin/store/ HTTP/1.1" 200 4220
+INFO 2020-05-31 11:33:10,864 basehttp 10722 140274319304448 "GET / HTTP/1.1" 200 7977
+INFO 2020-05-31 11:33:20,995 basehttp 10722 140274319304448 "GET / HTTP/1.1" 200 7935
+INFO 2020-05-31 11:33:33,115 basehttp 10722 140274319304448 "GET /logout_user HTTP/1.1" 301 0
+INFO 2020-05-31 11:33:33,161 basehttp 10722 140274319304448 "GET /logout_user/ HTTP/1.1" 200 4572
+INFO 2020-05-31 11:33:37,637 basehttp 10722 140274319304448 "GET /accounts/logout/?next=/ HTTP/1.1" 200 690
+INFO 2020-05-31 11:34:12,659 basehttp 10722 140274319304448 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 11:34:41,143 basehttp 10722 140274319304448 "GET /accounts/email/ HTTP/1.1" 200 1397
+INFO 2020-05-31 11:34:47,098 basehttp 10722 140274319304448 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 11:35:40,220 basehttp 10722 140274327697152 "GET / HTTP/1.1" 200 7955
+INFO 2020-05-31 11:35:40,355 basehttp 10722 140274101647104 "GET /images/headphones.jpg HTTP/1.1" 200 10782
+INFO 2020-05-31 11:35:40,369 basehttp 10722 140274327697152 "GET /static/css/main.css HTTP/1.1" 200 1359
+INFO 2020-05-31 11:35:40,370 basehttp 10722 140274071348992 "GET /images/watch.jpg HTTP/1.1" 200 12779
+INFO 2020-05-31 11:35:40,371 basehttp 10722 140274101647104 "GET /images/shoes.jpg HTTP/1.1" 200 29593
+INFO 2020-05-31 11:35:40,371 basehttp 10722 140274079741696 "GET /images/sourcecode.jpg HTTP/1.1" 200 22689
+INFO 2020-05-31 11:35:40,372 basehttp 10722 140274336089856 "GET /images/book.jpg HTTP/1.1" 200 22934
+INFO 2020-05-31 11:35:40,381 basehttp 10722 140274319304448 "GET /static/images/cart.png HTTP/1.1" 200 92001
+INFO 2020-05-31 11:35:40,393 basehttp 10722 140274071348992 "GET /images/shirt_HB0lGx0.jpg HTTP/1.1" 200 18895
+INFO 2020-05-31 11:35:40,407 basehttp 10722 140274079741696 "GET /static/js/cart.js HTTP/1.1" 200 1422
+INFO 2020-05-31 11:35:40,618 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7955
+INFO 2020-05-31 11:36:10,433 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:36:19,964 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:36:20,566 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:36:20,784 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:36:20,903 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:36:22,780 basehttp 10722 140274079741696 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:36:48,316 basehttp 10722 140274079741696 "GET /accounts/google/login/callback/?state=tTN2QH5yqK2I&code=4%2F0QGk8jylJcw6ZLDMRgmISX8zYBkbFseoxVozvN_ixCnfDPZ5zPONcKSXNBHtJQIowRzSUoiHC_nRIYqr2zG1Xgs&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 11:36:48,365 log 10722 140274079741696 Not Found: /accounts/profile/
+WARNING 2020-05-31 11:36:48,365 basehttp 10722 140274079741696 "GET /accounts/profile/ HTTP/1.1" 404 6769
+ERROR 2020-05-31 11:36:59,861 log 10722 140274079741696 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 13, in store
+    data = cartData(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/utils.py", line 49, in cartData
+    customer = request.user.customer
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 423, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+ERROR 2020-05-31 11:36:59,863 basehttp 10722 140274079741696 "GET / HTTP/1.1" 500 81284
+INFO 2020-05-31 11:37:12,212 basehttp 10722 140274088920832 "GET /admin/ HTTP/1.1" 200 11592
+INFO 2020-05-31 11:37:14,304 basehttp 10722 140274088920832 "GET /admin/auth/user/ HTTP/1.1" 200 8735
+INFO 2020-05-31 11:37:15,059 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:37:28,563 basehttp 10722 140274088920832 "POST /admin/auth/user/ HTTP/1.1" 200 5199
+INFO 2020-05-31 11:37:35,325 basehttp 10722 140274088920832 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:37:35,387 basehttp 10722 140274088920832 "GET /admin/auth/user/ HTTP/1.1" 200 7160
+INFO 2020-05-31 11:37:35,519 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:37:39,888 basehttp 10722 140274088920832 "GET /admin/ HTTP/1.1" 200 11391
+INFO 2020-05-31 11:37:42,515 basehttp 10722 140274088920832 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 3875
+INFO 2020-05-31 11:37:42,559 basehttp 10722 140274088920832 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-31 11:37:44,401 basehttp 10722 140274088920832 "GET /admin/socialaccount/ HTTP/1.1" 200 3534
+INFO 2020-05-31 11:37:47,954 basehttp 10722 140274088920832 "GET /admin/ HTTP/1.1" 200 11391
+INFO 2020-05-31 11:37:51,844 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:37:54,685 basehttp 10722 140274079741696 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:37:56,582 basehttp 10722 140274079741696 "GET /accounts/google/login/callback/?state=cXKNc4V0XBPl&code=4%2F0QGrLEdyplUz4qfmU_q8IAYKD0WSIGBpK9Taze0mpSaNU0W3EZY7bkzoYEIiXK_h-Y1Kma17POYklm8-ruPYeek&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 11:37:56,600 log 10722 140274079741696 Not Found: /accounts/profile/
+WARNING 2020-05-31 11:37:56,601 basehttp 10722 140274079741696 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 11:38:01,692 basehttp 10722 140274079741696 "GET /accounts/login HTTP/1.1" 301 0
+INFO 2020-05-31 11:38:01,704 basehttp 10722 140274079741696 "GET /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-31 11:38:01,768 log 10722 140274079741696 Not Found: /accounts/profile/
+WARNING 2020-05-31 11:38:01,769 basehttp 10722 140274079741696 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 11:38:06,851 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 11:38:15,265 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 11:38:17,030 basehttp 10722 140274079741696 "GET /accounts/logout/ HTTP/1.1" 200 849
+INFO 2020-05-31 11:38:29,945 basehttp 10722 140274079741696 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:38:29,971 basehttp 10722 140274079741696 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:38:33,766 basehttp 10722 140274079741696 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:38:38,694 basehttp 10722 140274079741696 "GET /accounts/google/login/callback/?state=2FXyGKfGdl6n&code=4%2F0QGUTG-7ThTNum21wwvm0DdWJklxYRhuvSt7fiknrmmMe5NvuVSotGZVCpO9tn611gGwrKpLzROzgBXmiwUDOUA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 11:38:45,826 basehttp 10722 140274088920832 "GET /?csrfmiddlewaretoken=65ZQ0rTLePluyxOoJHPGpmjnfxiArUYWX52kBraCHTFQspC8ZgKupa9s1VUUIj34&search= HTTP/1.1" 200 7939
+INFO 2020-05-31 11:38:48,475 basehttp 10722 140274088920832 "GET /?csrfmiddlewaretoken=65ZQ0rTLePluyxOoJHPGpmjnfxiArUYWX52kBraCHTFQspC8ZgKupa9s1VUUIj34&search= HTTP/1.1" 200 7939
+INFO 2020-05-31 11:38:50,365 basehttp 10722 140274088920832 "GET /accounts/logout/ HTTP/1.1" 200 640
+INFO 2020-05-31 11:38:52,543 basehttp 10722 140274088920832 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:38:52,583 basehttp 10722 140274088920832 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:38:56,804 basehttp 10722 140274088920832 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:39:11,335 basehttp 10722 140274088920832 "GET /accounts/google/login/callback/?state=jH1AZwjTVwir&code=4%2F0QGXfF7-aAfWbNnxa6SbFoR-QHwxYbRu_qzc2PKmY9GQt9kjpAhIEWEF7kiv_C2RnbJ1LQ53aeSuXs4B3JAZG5Q&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+WARNING 2020-05-31 11:39:11,362 log 10722 140274088920832 Not Found: /accounts/profile/
+WARNING 2020-05-31 11:39:11,363 basehttp 10722 140274088920832 "GET /accounts/profile/ HTTP/1.1" 404 6769
+INFO 2020-05-31 11:40:49,715 autoreload 10722 140274535565056 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/settings.py changed, reloading.
+INFO 2020-05-31 11:40:53,577 autoreload 12550 140028455708416 Watching for file changes with StatReloader
+INFO 2020-05-31 11:40:56,140 basehttp 12550 140028268615424 "GET / HTTP/1.1" 200 7955
+INFO 2020-05-31 11:40:58,433 basehttp 12550 140028268615424 "GET /accounts/logout/ HTTP/1.1" 200 845
+INFO 2020-05-31 11:41:01,206 basehttp 12550 140028268615424 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:41:01,231 basehttp 12550 140028268615424 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:41:03,382 basehttp 12550 140028268615424 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 11:41:10,322 basehttp 12550 140028268615424 "GET /accounts/google/login/callback/?state=CMObPvTTS3Fl&code=4%2F0QELONCQ7xIsxeo6ObqvJaqIKP3yLfPeMEazOGk09hfxOacZRaXouMt1-R2RH0J6JrPshFD4VQZNOWOqUkkZkJo&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 11:41:10,344 basehttp 12550 140028268615424 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 11:41:17,589 basehttp 12550 140028268615424 "GET /accounts/logout/ HTTP/1.1" 200 837
+INFO 2020-05-31 11:50:19,194 basehttp 12550 140028268615424 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 11:50:19,845 basehttp 12550 140028268615424 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 11:52:31,749 autoreload 12550 140028455708416 /home/mieone/Downloads/django-ecommerce/ecommerce/ecommerce/urls.py changed, reloading.
+INFO 2020-05-31 11:52:54,813 autoreload 13473 140240522909440 Watching for file changes with StatReloader
+INFO 2020-05-31 11:54:25,174 autoreload 13665 140702316148480 Watching for file changes with StatReloader
+INFO 2020-05-31 11:55:23,654 autoreload 13665 140702316148480 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 11:55:24,256 autoreload 13725 140397467682560 Watching for file changes with StatReloader
+INFO 2020-05-31 11:55:29,968 autoreload 13725 140397467682560 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 11:55:30,536 autoreload 13742 140410592380672 Watching for file changes with StatReloader
+INFO 2020-05-31 11:55:36,263 autoreload 13742 140410592380672 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 11:55:36,862 autoreload 13759 139808909682432 Watching for file changes with StatReloader
+INFO 2020-05-31 11:55:44,493 autoreload 13787 140156001236736 Watching for file changes with StatReloader
+INFO 2020-05-31 11:56:03,076 autoreload 13787 140156001236736 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 11:56:03,687 autoreload 13804 139637328680704 Watching for file changes with StatReloader
+INFO 2020-05-31 11:56:08,967 autoreload 13818 140569333339904 Watching for file changes with StatReloader
+INFO 2020-05-31 11:58:00,598 autoreload 13923 140531535587072 Watching for file changes with StatReloader
+INFO 2020-05-31 11:58:36,002 autoreload 13955 139853375854336 Watching for file changes with StatReloader
+INFO 2020-05-31 11:59:47,730 autoreload 14007 140660173965056 Watching for file changes with StatReloader
+INFO 2020-05-31 12:00:19,213 autoreload 14007 140660173965056 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:00:19,756 autoreload 14050 139635317372672 Watching for file changes with StatReloader
+INFO 2020-05-31 12:01:03,410 autoreload 14050 139635317372672 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:01:03,969 autoreload 14114 140699077687040 Watching for file changes with StatReloader
+INFO 2020-05-31 12:01:14,010 autoreload 14114 140699077687040 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:01:14,563 autoreload 14130 140009535936256 Watching for file changes with StatReloader
+ERROR 2020-05-31 12:01:20,305 log 14130 140009347946240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 18, in store
+    return render(request, 'store/store.html', context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 617, in _reverse_with_prefix
+    self._populate()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 472, in _populate
+    url_pattern._populate()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 469, in _populate
+    (bits, p_pattern, url_pattern.default_args, url_pattern.pattern.converters)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/datastructures.py", line 169, in appendlist
+    self.setlistdefault(key).append(value)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/utils/datastructures.py", line 159, in setlistdefault
+    if key not in self:
+TypeError: unhashable type: 'dict'
+ERROR 2020-05-31 12:01:20,308 basehttp 14130 140009347946240 "GET / HTTP/1.1" 500 168291
+INFO 2020-05-31 12:01:39,927 autoreload 14130 140009535936256 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:01:40,605 autoreload 14172 140336088680192 Watching for file changes with StatReloader
+INFO 2020-05-31 12:01:43,596 basehttp 14172 140335900464896 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:01:47,469 basehttp 14172 140335900464896 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 12:01:59,335 basehttp 14172 140335900464896 "GET /accounts/google/login/callback/?state=peb1lzH4siLk&code=4%2F0QHrRDNXliRdJHxqF67qGRdOKne4ftBkIcz3WwoGquiCNGHyreXZZBs8ZnwVcCNUmY7VQFDQA_oGwEP3wDp9h0E&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 12:01:59,361 basehttp 14172 140335900464896 "GET / HTTP/1.1" 200 7955
+INFO 2020-05-31 12:02:09,157 basehttp 14172 140335900464896 "GET /accounts/logout/ HTTP/1.1" 200 845
+INFO 2020-05-31 12:02:14,168 basehttp 14172 140335900464896 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 12:02:14,199 basehttp 14172 140335900464896 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:03:14,083 autoreload 14172 140336088680192 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:03:14,718 autoreload 14357 140356772435712 Watching for file changes with StatReloader
+INFO 2020-05-31 12:03:48,304 autoreload 14357 140356772435712 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:03:48,962 autoreload 14382 139740087473920 Watching for file changes with StatReloader
+INFO 2020-05-31 12:03:56,952 autoreload 14382 139740087473920 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:03:57,525 autoreload 14455 140269775271680 Watching for file changes with StatReloader
+INFO 2020-05-31 12:04:47,001 autoreload 14455 140269775271680 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:04:47,534 autoreload 14493 140266929690368 Watching for file changes with StatReloader
+INFO 2020-05-31 12:04:52,558 basehttp 14493 140266808833792 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:04:54,739 basehttp 14493 140266808833792 "GET /accounts/google/login/?process=login HTTP/1.1" 302 0
+INFO 2020-05-31 12:05:03,565 basehttp 14493 140266808833792 "GET /accounts/google/login/callback/?state=wka2HY4DFfu3&code=4%2F0QEgAj0HoJEZZP5Fvkc9SDeytG-0y93ip5VzafGCfwKtXTBCE45LkgrPGkasvqLzb67f6dVdKB2wCganx6z3l2s&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 302 0
+INFO 2020-05-31 12:05:03,593 basehttp 14493 140266808833792 "GET / HTTP/1.1" 200 7939
+INFO 2020-05-31 12:05:06,395 basehttp 14493 140266808833792 "GET /accounts/logout/ HTTP/1.1" 200 837
+INFO 2020-05-31 12:05:08,875 basehttp 14493 140266808833792 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2020-05-31 12:05:08,904 basehttp 14493 140266808833792 "GET / HTTP/1.1" 200 7985
+INFO 2020-05-31 12:05:26,253 autoreload 14493 140266929690368 /home/mieone/Downloads/django-ecommerce/ecommerce/store/urls.py changed, reloading.
+INFO 2020-05-31 12:05:26,789 autoreload 14594 140133078398720 Watching for file changes with StatReloader

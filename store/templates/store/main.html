@@ -112,11 +112,11 @@
           
           {% if request.user.is_authenticated %}
           <p style="color: white;">Hi <b>{{request.user}}</b></p>
-          <a href="/logout_user" class="btn btn-danger">Logout</a>
+          <a href="accounts/logout/" class="btn btn-danger">Logout</a>
 
           {% else %}
           
-          <a href="#" class="text-white" style="text-decoration: none;">
+          <a href="accounts/google/login/?process=login" class="text-white" style="text-decoration: none;">
             Login using Google
           </a>
           {% endif %}

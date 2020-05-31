@@ -2,6 +2,17 @@
 {% load static %} 
 
 {% block content %}
+
+  
+  <form action="/">
+    {% csrf_token %}
+    <div style="display: flex;">
+      <input type="text" class="form-control" name="search" placeholder="Search Products">
+      <a href="/"><button class="btn btn-outline-primary" style="border-radius: 10px;">Search</button></a>
+    </div>
+
+  </form>
+
 <div class="row">
   {% for product in products %}
     <div class="col-lg-4">
