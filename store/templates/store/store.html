@@ -4,9 +4,9 @@
 {% block content %}
 
   
-  <form method="get" action="/">
-    {{myFilter.form}}
-    <button type="submit" class="btn btn-outline-primary" style="border-radius: 10px;">Search</button>
+  <form method="get">
+    {{myFilter.form}} <br>
+    <button type="submit" class="btn btn-outline-primary">Search</button>
     <!-- <div style="display: flex;">
       <input type="text" class="form-control" name="search" placeholder="Search Products">
       <a href="/"><button class="btn btn-outline-primary" style="border-radius: 10px;">Search</button></a>
@@ -30,4 +30,9 @@
     </div>
   {% endfor %} 
 </div>
+
+<script type="text/javascript">
+  search_form = document.getElementById('id_name');
+  search_form.classList.add("form-control");
+</script>
 {% endblock %}

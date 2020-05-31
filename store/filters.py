@@ -4,14 +4,9 @@ from .models import *
 
 
 class ProductFilter(django_filters.FilterSet):
+    name = django_filters.CharFilter(label='Search Products',
+                                     lookup_expr='icontains')
+
     class Meta:
         model = Product
         fields = ('name',)
-        filter_overrides = {
-            models.CharField: {
-                'filter_class': django_filters.CharFilter,
-                'extra': lambda f: {
-                    'lookup_expr': 'icontains',
-                },
-            },
-        }

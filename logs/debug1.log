@@ -2476,3 +2476,182 @@ INFO 2020-05-31 13:06:46,122 basehttp 19988 140012798760704 "GET /?name=mount HT
 INFO 2020-05-31 13:06:48,679 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8057
 INFO 2020-05-31 13:07:50,898 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8038
 INFO 2020-05-31 13:07:58,613 basehttp 19988 140012798760704 "GET / HTTP/1.1" 200 8057
+INFO 2020-05-31 13:15:06,218 autoreload 21235 140626991273728 Watching for file changes with StatReloader
+INFO 2020-05-31 13:15:22,689 autoreload 21235 140626991273728 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:15:23,303 autoreload 21248 140646032197376 Watching for file changes with StatReloader
+ERROR 2020-05-31 13:15:26,528 log 21248 140645911340800 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 22, in store
+    products = myFilter.qs
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 236, in qs
+    self.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 213, in errors
+    return self.form.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 258, in form
+    Form = self.get_form_class()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in get_form_class
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in <listcomp>
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filters.py", line 140, in field
+    self._field = self.field_class(label=self.label, **field_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/forms/fields.py", line 215, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'widgets'
+ERROR 2020-05-31 13:15:26,529 basehttp 21248 140645911340800 "GET / HTTP/1.1" 500 99444
+INFO 2020-05-31 13:15:38,996 autoreload 21248 140646032197376 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:15:39,644 autoreload 21281 140379090618112 Watching for file changes with StatReloader
+ERROR 2020-05-31 13:15:41,056 log 21281 140378903328512 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 22, in store
+    products = myFilter.qs
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 236, in qs
+    self.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 213, in errors
+    return self.form.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 258, in form
+    Form = self.get_form_class()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in get_form_class
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in <listcomp>
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filters.py", line 140, in field
+    self._field = self.field_class(label=self.label, **field_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/forms/fields.py", line 215, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'attrs'
+ERROR 2020-05-31 13:15:41,057 basehttp 21281 140378903328512 "GET / HTTP/1.1" 500 99432
+ERROR 2020-05-31 13:15:46,149 log 21281 140378903328512 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 22, in store
+    products = myFilter.qs
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 236, in qs
+    self.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 213, in errors
+    return self.form.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 258, in form
+    Form = self.get_form_class()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in get_form_class
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in <listcomp>
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filters.py", line 140, in field
+    self._field = self.field_class(label=self.label, **field_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/forms/fields.py", line 215, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'attrs'
+ERROR 2020-05-31 13:15:46,150 basehttp 21281 140378903328512 "GET / HTTP/1.1" 500 99432
+INFO 2020-05-31 13:15:53,124 autoreload 21281 140379090618112 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:15:53,730 autoreload 21304 140677715289856 Watching for file changes with StatReloader
+ERROR 2020-05-31 13:15:54,284 log 21304 140677595744000 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/store/views.py", line 22, in store
+    products = myFilter.qs
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 236, in qs
+    self.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 213, in errors
+    return self.form.errors
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 258, in form
+    Form = self.get_form_class()
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in get_form_class
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filterset.py", line 250, in <listcomp>
+    for name, filter_ in self.filters.items()])
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filters.py", line 140, in field
+    self._field = self.field_class(label=self.label, **field_kwargs)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/filters.py", line 122, in fget
+    self.model, self.field_name, self.lookup_expr, self.exclude
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/utils.py", line 298, in label_for_filter
+    name = verbose_field_name(model, field_name)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/utils.py", line 244, in verbose_field_name
+    parts = get_field_parts(model, field_name)
+  File "/home/mieone/Downloads/django-ecommerce/ecommerce/venv/lib/python3.7/site-packages/django_filters/utils.py", line 157, in get_field_parts
+    parts = field_name.split(LOOKUP_SEP)
+AttributeError: 'dict' object has no attribute 'split'
+ERROR 2020-05-31 13:15:54,288 basehttp 21304 140677595744000 "GET / HTTP/1.1" 500 110005
+INFO 2020-05-31 13:16:01,991 autoreload 21304 140677715289856 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:16:02,635 autoreload 21327 140698523952896 Watching for file changes with StatReloader
+INFO 2020-05-31 13:16:34,580 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8057
+INFO 2020-05-31 13:18:05,628 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8192
+INFO 2020-05-31 13:18:08,644 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8192
+INFO 2020-05-31 13:18:53,158 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8197
+INFO 2020-05-31 13:19:17,887 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8202
+INFO 2020-05-31 13:19:40,611 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8173
+INFO 2020-05-31 13:19:49,576 basehttp 21327 140698403358464 "GET /?name=head HTTP/1.1" 200 5602
+INFO 2020-05-31 13:20:56,466 basehttp 21327 140698403358464 "GET /?name=head HTTP/1.1" 200 5591
+INFO 2020-05-31 13:20:57,826 basehttp 21327 140698403358464 "GET /?name=head HTTP/1.1" 200 5591
+INFO 2020-05-31 13:21:03,480 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8162
+INFO 2020-05-31 13:21:08,966 basehttp 21327 140698403358464 "GET /?name=he HTTP/1.1" 200 5589
+INFO 2020-05-31 13:21:14,036 basehttp 21327 140698403358464 "GET / HTTP/1.1" 200 8162
+INFO 2020-05-31 13:21:26,612 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6096
+INFO 2020-05-31 13:22:58,252 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6199
+INFO 2020-05-31 13:23:10,093 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6203
+INFO 2020-05-31 13:24:12,426 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6203
+INFO 2020-05-31 13:25:29,924 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6204
+INFO 2020-05-31 13:26:23,117 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6139
+INFO 2020-05-31 13:26:35,250 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6096
+INFO 2020-05-31 13:27:48,406 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:27:50,518 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:27:56,033 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:28:19,498 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:28:20,751 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:28:22,162 basehttp 21327 140698403358464 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:28:27,172 autoreload 22935 140538662332160 Watching for file changes with StatReloader
+INFO 2020-05-31 13:28:28,189 basehttp 22935 140538542262016 "GET /?name=sh HTTP/1.1" 200 6132
+INFO 2020-05-31 13:30:05,264 autoreload 22935 140538662332160 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:30:06,181 autoreload 23134 140480891574016 Watching for file changes with StatReloader
+INFO 2020-05-31 13:30:14,081 autoreload 23134 140480891574016 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:30:14,623 autoreload 23165 140286075610880 Watching for file changes with StatReloader
+INFO 2020-05-31 13:30:20,440 autoreload 23165 140286075610880 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:30:20,990 autoreload 23197 139723999430400 Watching for file changes with StatReloader
+INFO 2020-05-31 13:30:27,956 autoreload 23277 139969264998144 Watching for file changes with StatReloader
+INFO 2020-05-31 13:30:54,216 autoreload 23277 139969264998144 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:30:54,778 autoreload 23310 140476387940096 Watching for file changes with StatReloader
+INFO 2020-05-31 13:30:58,615 basehttp 23310 140476267083520 "GET /?name=sh HTTP/1.1" 200 5072
+INFO 2020-05-31 13:31:07,192 basehttp 23310 140476267083520 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 13:31:13,338 basehttp 23310 140476267083520 "GET /?name=sh HTTP/1.1" 200 5072
+INFO 2020-05-31 13:31:19,723 basehttp 23310 140476267083520 "GET /?name=Shoes HTTP/1.1" 200 5583
+INFO 2020-05-31 13:31:25,397 basehttp 23310 140476267083520 "GET /?name=sh HTTP/1.1" 200 5072
+INFO 2020-05-31 13:31:27,279 basehttp 23310 140476267083520 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 13:31:34,009 basehttp 23310 140476267083520 "GET /?name=hea HTTP/1.1" 200 5073
+INFO 2020-05-31 13:32:45,182 autoreload 23310 140476387940096 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:32:45,730 autoreload 23426 139927238174464 Watching for file changes with StatReloader
+INFO 2020-05-31 13:32:52,626 autoreload 23426 139927238174464 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:32:53,207 autoreload 23452 140218280879872 Watching for file changes with StatReloader
+INFO 2020-05-31 13:32:54,848 basehttp 23452 140218160809728 "GET /?name=hea HTTP/1.1" 200 5592
+INFO 2020-05-31 13:32:56,868 basehttp 23452 140218160809728 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 13:33:00,566 basehttp 23452 140218160809728 "GET /?name=mount HTTP/1.1" 200 5597
+INFO 2020-05-31 13:33:02,293 basehttp 23452 140218160809728 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 13:33:13,433 autoreload 23452 140218280879872 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:33:13,967 autoreload 23486 139840184190720 Watching for file changes with StatReloader
+INFO 2020-05-31 13:33:18,768 autoreload 23486 139840184190720 /home/mieone/Downloads/django-ecommerce/ecommerce/store/filters.py changed, reloading.
+INFO 2020-05-31 13:33:19,457 autoreload 23503 139844659492608 Watching for file changes with StatReloader
+INFO 2020-05-31 13:33:20,863 basehttp 23503 139844470699776 "GET / HTTP/1.1" 200 8164
+INFO 2020-05-31 13:33:24,735 basehttp 23503 139844470699776 "GET /?name=pro HTTP/1.1" 200 5600
+INFO 2020-05-31 13:33:27,384 basehttp 23503 139844470699776 "GET /?name=sh HTTP/1.1" 200 6098
+INFO 2020-05-31 13:33:37,338 basehttp 23503 139844470699776 "GET /?name=- HTTP/1.1" 200 5589
+INFO 2020-05-31 13:33:41,587 basehttp 23503 139844470699776 "GET /?name= HTTP/1.1" 200 8164
