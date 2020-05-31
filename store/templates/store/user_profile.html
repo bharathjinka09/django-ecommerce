@@ -18,6 +18,11 @@
 			<hr>
 			<h3 style="text-align: center">Account Settings</h3>
 			<hr>
+			{% if request.user.customer.profile_pic %}
+			<img alt="" class="img-fluid rounded-circle" src="{{request.user.customer.profile_pic.url}}" >
+			{% else %}
+			<img alt="" class="img-fluid rounded-circle" src="{% static 'images/profile1.png' %}" >
+			{% endif %}
 		</div>
 	</div>
 	<div class="col-md-9 profile">

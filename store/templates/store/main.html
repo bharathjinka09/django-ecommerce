@@ -113,7 +113,8 @@
           {% if request.user.is_authenticated %}
           <p style="color: white;">Hi <b>{{request.user.first_name}} {{request.user.last_name}}</b></p>
            
-           <a class="btn btn-info" href="{% url 'profile' %}">Profile</a>
+           <a class="btn btn-info" href="{% url 'profile' %}">
+            <img width="20" alt="" src="{{request.user.customer.profile_pic.url}}" >Profile</a>
           
             <a href="accounts/logout/" class="btn btn-danger">Logout</a>
           
