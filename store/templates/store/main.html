@@ -76,7 +76,7 @@
       <a class="navbar-brand" href="{% url 'store' %}">Ecom</a>
       <div class="row">
 
-        <a href="{% url 'cart' %}">
+        <a href="{% url 'cart' %}" style="text-decoration: none;">
           <div class="col">
               <img id="cart-icon" src="{% static 'images/cart.png' %}" />
               </div>
@@ -111,12 +111,12 @@
         <div>
           
           {% if request.user.is_authenticated %}
-          <p style="color: white;">Hi <b>{{request.user.first_name}} {{request.user.last_name}}</b></p>
+          <p style="color: white;">Hi <b>{{request.user.first_name}} {{request.user.last_name}}</b> <img width="20" alt="" src="{{request.user.customer.profile_pic.url}}" ></p>
            
-           <a class="btn btn-info" href="{% url 'profile' %}">
-            <img width="20" alt="" src="{{request.user.customer.profile_pic.url}}" >Profile</a>
+           <a class="btn btn-warning" href="{% url 'profile' %}">
+          Profile</a>
           
-            <a href="accounts/logout/" class="btn btn-danger">Logout</a>
+            <a href="/accounts/logout/" class="btn btn-danger">Logout</a>
           
           {% else %}
           
