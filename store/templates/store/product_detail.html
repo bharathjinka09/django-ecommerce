@@ -16,15 +16,17 @@
 	          <strong>₹ {{product.price|floatformat:2}}</strong>
 	        </h4>
 	      </div>
-	    </div>
+	    </div> 
 	    <div class="col-md-8">
-	    	<div class="card py-2 px-2">
-	    		<h3><b>Description</b></h3>
+	    <br>
 	    		{% if product.description %}
+	    	<div class="box-element product py-2 px-2">
+	    		<h3><b>Description</b></h3>
 	    		<p>{{product.description | safe}}</p>
-	    		{% else %}
-	    		{% endif %}
 	    	</div>
+	    		{% else %}
+	    			
+	    		{% endif %}
 	    </div>		
 	</div>
 </div>
