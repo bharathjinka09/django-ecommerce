@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 
     # filters
     'django_filters',
+    'tinymce',
 ]
 
 SITE_ID = 3

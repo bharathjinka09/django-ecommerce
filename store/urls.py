@@ -13,5 +13,7 @@ urlpatterns = [
     path('process_order/', views.processOrder, name="process_order"),
     path('logout_user/', views.logout_user, name="logout_user"),
     path('profile/', views.get_user_profile, name="profile"),
+    path('product_detail/<int:id>/', views.product_detail, name="product_detail"),
+    path('tinymce/', include('tinymce.urls')),
 
 ]

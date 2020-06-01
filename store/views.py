@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import json
@@ -16,8 +16,12 @@ def store(request):
     data = cartData(request)
     cartItems = data['cartItems']
 
+    # product = Product.objects.get(id=id)
+
     products = Product.objects.all()
     page = request.GET.get('page', 1)
+
+    # product_detail = Product.objects.get(id)
 
     products_list = Product.objects.all()
     paginator = Paginator(products_list, 3)
@@ -32,7 +36,8 @@ def store(request):
     myFilter = ProductFilter(request.GET, queryset=products)
     products = myFilter.qs
 
-    context = {'products': products, 'products_page': products_page,
+    context = {'products': products,
+               'products_page': products_page,
                'cartItems': cartItems, 'myFilter': myFilter}
     return render(request, 'store/store.html', context)
 
@@ -40,6 +45,15 @@ def logout_user(request):
 
     return render(request, 'store/logout_user.html')
 
+
+def product_detail(request, id):
+    data = cartData(request)
+    cartItems = data['cartItems']
+
+    product = get_object_or_404(Product, pk=id)
+
+    context = {'product': product, 'cartItems': cartItems}
+    return render(request, 'store/product_detail.html', context)
 
 def get_user_profile(request):
 

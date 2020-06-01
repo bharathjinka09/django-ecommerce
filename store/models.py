@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+from tinymce.models import HTMLField
+
 import os
 # Create your models here.
 
@@ -10,7 +12,8 @@ class Customer(models.Model):
     name = models.CharField(max_length=200, null=True)
     email = models.CharField(max_length=200, null=True)
     phone = models.CharField(max_length=200, null=True)
-    profile_pic = models.ImageField(default='profile1.png', null=True, blank=True)
+    profile_pic = models.ImageField(
+        default='profile1.png', null=True, blank=True)
 
     def __str__(self):
         return self.name
@@ -21,6 +24,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=7, decimal_places=2)
     digital = models.BooleanField(default=False, null=True, blank=False)
     image = models.ImageField(null=True, blank=True)
+    description = HTMLField(max_length=300, null=True, blank=True)
 
     def __str__(self):
         return self.name
@@ -46,12 +50,12 @@ class Order(models.Model):
 
     @property
     def shipping(self):
-    	shipping = False
-    	orderitems = self.orderitem_set.all()
-    	for orderitem in orderitems:
-    		if orderitem.product.digital == False:
-    			shipping = True
-    	return shipping    
+        shipping = False
+        orderitems = self.orderitem_set.all()
+        for orderitem in orderitems:
+            if orderitem.product.digital == False:
+                shipping = True
+        return shipping
 
     @property
     def get_cart_total(self):
