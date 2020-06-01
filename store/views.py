@@ -21,7 +21,7 @@ def store(request):
     products = Product.objects.all()
     page = request.GET.get('page', 1)
 
-    # product_detail = Product.objects.get(id)
+    offer_messages = Offer.objects.all()
 
     products_list = Product.objects.all()
     paginator = Paginator(products_list, 3)
@@ -37,6 +37,7 @@ def store(request):
     products = myFilter.qs
 
     context = {'products': products,
+               'offer_messages': offer_messages,
                'products_page': products_page,
                'cartItems': cartItems, 'myFilter': myFilter}
     return render(request, 'store/store.html', context)

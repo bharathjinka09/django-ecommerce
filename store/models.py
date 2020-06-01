@@ -95,3 +95,9 @@ class ShippingAddress(models.Model):
 
     def __str__(self):
         return self.address
+
+class Offer(models.Model):
+    offer_message = models.CharField(max_length=200, null=True)
+
+    def __str__(self):
+        return self.offer_message
