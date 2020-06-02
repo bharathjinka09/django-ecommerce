@@ -11,6 +11,9 @@
       crossorigin="anonymous"
     />
 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
 
     <meta
@@ -124,8 +127,8 @@
           
           {% else %}
           
-          <a href="/accounts/google/login/?process=login" class="text-white" style="text-decoration: none;">
-            Login using Google
+          <a href="/accounts/google/login/?process=login" class="btn btn-warning" style="border-radius: 10px;">
+            Login using Google <i class="fa fa-google"></i>
           </a>
           {% endif %}
         </div>
