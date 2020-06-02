@@ -24,8 +24,8 @@ def store(request):
 
     offer_messages = Offer.objects.all()
 
-    products_list = Product.objects.all().order_by('id')
-    paginator = Paginator(products_list, 3)
+    # products_list = Product.objects.all().order_by('id')
+    paginator = Paginator(products, 3)
     try:
         products_page = paginator.page(page)
     except PageNotAnInteger:
@@ -40,7 +40,7 @@ def store(request):
     context = {'products': products,
                'offer_messages': offer_messages,
                'products_page': products_page,
-               'products_list': products_list,
+               # 'products_list': products_list,
                'cartItems': cartItems, 'myFilter': myFilter}
     return render(request, 'store/store.html', context)
 
