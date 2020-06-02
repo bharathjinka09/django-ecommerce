@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.contrib.auth.decorators import login_required
 import json
 import datetime
 
@@ -57,6 +58,8 @@ def product_detail(request, id):
     context = {'product': product, 'cartItems': cartItems}
     return render(request, 'store/product_detail.html', context)
 
+
+@login_required(login_url='/accounts/google/login/?process=login')
 def get_user_profile(request):
 
     data = cartData(request)
