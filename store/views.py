@@ -23,7 +23,7 @@ def store(request):
 
     offer_messages = Offer.objects.all()
 
-    products_list = Product.objects.all()
+    products_list = Product.objects.all().order_by('id')
     paginator = Paginator(products_list, 3)
     try:
         products_page = paginator.page(page)
@@ -39,6 +39,7 @@ def store(request):
     context = {'products': products,
                'offer_messages': offer_messages,
                'products_page': products_page,
+               'products_list': products_list,
                'cartItems': cartItems, 'myFilter': myFilter}
     return render(request, 'store/store.html', context)
 
@@ -71,9 +72,13 @@ def get_user_profile(request):
         if form.is_valid():
             form.save()
 
-    context = {'items': items, 'order': order,
-               'cartItems': cartItems,
-               'form': form}
+    shipping_address = ShippingAddress.objects.filter(id=request.user.id)
+    customer_orders = OrderItem.objects.filter(id=request.user.id)
+    order_status = Order.objects.filter(id=request.user.id)
+
+    context = {'items': items, 'order': order, 'order_status':order_status,
+               'cartItems': cartItems, 'customer_orders':customer_orders,
+               'form': form, 'shipping_address': shipping_address}
 
     return render(request, 'store/user_profile.html', context)
 

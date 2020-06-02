@@ -121,7 +121,7 @@
 
           {% endif %}
            <a class="btn btn-warning" href="{% url 'profile' %}">
-          Profile</a>
+          My Account</a>
           
             <a href="/accounts/logout/" class="btn btn-danger">Logout</a>
           
@@ -147,7 +147,8 @@
     <br>
       <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
         <div class="container text-center">
-          <small style="color: white">Copyright &copy; 2020 </small>
+          <small style="color: white">Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+         </small>
         </div>
       </footer>
 

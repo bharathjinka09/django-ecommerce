@@ -16,7 +16,7 @@
 		<div class="card card-body">
 			<a class="btn btn-warning" href="{% url 'store' %}"> &#8592; Back to Store</a>
 			<hr>
-			<h3 style="text-align: center">Account Settings</h3>
+			<h3 style="text-align: center"><b>Account Settings</b></h3>
 			<hr>
 			{% if request.user.customer.profile_pic %}
 			<img alt="" class="img-fluid rounded-circle" src="{{request.user.customer.profile_pic.url}}" >
@@ -32,8 +32,54 @@
 				{% csrf_token %}
 				{{form.as_p}}
 		
-			<input class="btn btn-primary" type="submit" name="Update Information">
+			<input class="btn btn-primary" type="submit" value="Update Information">
 			</form>
+		</div>
+		<br>
+		<div class="card card-body">
+			{% for status in order_status %}
+
+				{% if status.complete %}
+					<h3><b>Your Orders</b></h3>
+					<h5>No Orders found. Order now.</h5>
+					<br>
+				{% else %}
+					<h3><b>Your Orders</b></h3>
+					<p>
+						{% for order in customer_orders %}
+							<h5><b>Product:</b> {{order.product}}</h5>
+							<h5><b>Order ID:</b> {{order.order}}</h5>
+							<h5><b>Quantity:</b> {{order.quantity}}</h5>
+							<h5><b>Order Date:</b> {{order.date_added}}</h5>
+						{% endfor %}
+					</p>
+				{% endif %}
+			{% endfor %}
+
+			<h3><b>Order Status</b></h3>
+			<p>
+				{% for status in order_status %}
+					{% if status.complete %}
+						<h5>Completed</h5>
+					{% else %}
+						<h5>Processing...</h5>
+					{% endif %}
+				{% endfor %}
+
+			</p>
+			<h3><b>Shipping Address</b></h3>
+			<p>
+				{% if shipping_address %}
+					{% for address in shipping_address %}
+						<h5><b>Address : </b>{{address.address}}</h5>
+						<h5><b>City : </b>{{address.city}}</h5>
+						<h5><b>State : </b>{{address.state}}</h5>
+						<h5><b>Zipcode : </b>{{address.zipcode}}</h5>
+					{% endfor %}
+				{% else %}
+					<h5>No Address Provided.</h5>
+				{% endif %}
+			</p>
 		</div>
 	</div>
 </div>

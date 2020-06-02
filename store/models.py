@@ -16,7 +16,7 @@ class Customer(models.Model):
         default='profile1.png', null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class Product(models.Model):
@@ -28,7 +28,7 @@ class Product(models.Model):
     description = HTMLField(max_length=300, null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     @property
     def imageURL(self):
@@ -47,7 +47,7 @@ class Order(models.Model):
     transaction_id = models.CharField(max_length=200, null=True)
 
     def __str__(self):
-        return str(self.id)
+        return f"{str(self.id)}"
 
     @property
     def shipping(self):
@@ -82,6 +82,9 @@ class OrderItem(models.Model):
         total = self.product.price * self.quantity
         return total
 
+    def __str__(self):
+        return f"Product : {str(self.product)}, Order ID : {str(self.order)}, Quantity : {str(self.quantity)}, Order Date : {str(self.date_added)}"
+
 
 class ShippingAddress(models.Model):
     customer = models.ForeignKey(
@@ -94,10 +97,11 @@ class ShippingAddress(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.address
+        return f"{self.address}, {self.city}, {self.state}, {self.zipcode}"
+
 
 class Offer(models.Model):
     offer_message = models.CharField(max_length=200, null=True)
 
     def __str__(self):
-        return self.offer_message
+        return str(self.offer_message)
