@@ -5,8 +5,7 @@
 
 
   
-  <form method="get" class="mt-5">
-    <div>
+    <div class="mt-5">
     {% for offer_message in offer_messages %}
         
         <div class="alert alert-danger text-center" role="alert">
@@ -15,6 +14,7 @@
 
     {% endfor %}
     </div>
+  <form method="get">
     <br>
     <div style="display:flex;">
       {{myFilter.form}} <br>
