@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 import json
 import datetime
@@ -37,6 +38,9 @@ def store(request):
     myFilter = ProductFilter(request.GET, queryset=products)
     products = myFilter.qs
 
+    # messages.success(request, 'Item added to cart')
+
+
     context = {'products': products,
                'offer_messages': offer_messages,
                'products_page': products_page,
@@ -54,6 +58,8 @@ def product_detail(request, id):
     cartItems = data['cartItems']
 
     product = get_object_or_404(Product, pk=id)
+
+    # messages.success(request, 'Item added to cart')
 
     context = {'product': product, 'cartItems': cartItems}
     return render(request, 'store/product_detail.html', context)

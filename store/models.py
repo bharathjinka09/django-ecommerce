@@ -26,7 +26,10 @@ class Product(models.Model):
     digital = models.BooleanField(default=False, null=True, blank=False)
     image = models.ImageField(null=True, blank=True)
     description = HTMLField(max_length=300, null=True, blank=True)
-
+    
+    class Meta:
+       ordering = ['-id']
+    
     def __str__(self):
         return str(self.name)
 
