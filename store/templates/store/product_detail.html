@@ -14,7 +14,7 @@
 	      <div class="box-element product">
 	        <h6><strong>{{product.name}}</strong></h6>
 	        <hr />
-	        <button data-product={{product.id}} data-action='add' class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+	        <button onclick="alert('Product added to cart!')" data-product={{product.id}} data-action='add' class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
 	        <!-- {% if offer_price != 0.0 %}
 	        <h4 style="display: inline-block; float: right;">
 	          <strike>₹ {{product.price|floatformat:2}}</strike>
@@ -44,7 +44,13 @@
 	</div>
 </div>
 
-
+<script>
+  function launch_toast() {
+    var x = document.getElementById("toast")
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+}
+  </script>
 
 
 {% endblock content %}
