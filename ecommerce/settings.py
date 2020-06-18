@@ -96,6 +96,17 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'db8sg42leudg8s',
+#         'PORT': 5432,
+#         'HOST':'ec2-34-193-117-204.compute-1.amazonaws.com' ,
+#         'USER': 'ihjgvebzotfsam' ,
+#         'PASSWORD': '99c225aa8fc8fa8dbfe680e7754506e3251338dcb852abbfa855c37bac5c2200',
+#     }
+# }
+
 AUTHENTICATION_BACKENDS = (
 
     # Needed to login by username in Django admin, regardless of `allauth`

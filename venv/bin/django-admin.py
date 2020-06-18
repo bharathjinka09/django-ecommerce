@@ -1,4 +1,4 @@
-#!/home/mieone/Downloads/django-ecommerce/ecommerce/venv/bin/python3.7
+#!/home/mieone/Downloads/bharath-shop/venv/bin/python3.7
 from django.core import management
 
 if __name__ == "__main__":

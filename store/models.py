@@ -14,6 +14,7 @@ class Customer(models.Model):
     phone = models.CharField(max_length=200, null=True)
     profile_pic = models.ImageField(
         default='profile1.png', null=True, blank=True)
+    device = models.CharField(max_length=200, null=True)
 
     def __str__(self):
         return str(self.name)
@@ -50,7 +51,7 @@ class Order(models.Model):
     transaction_id = models.CharField(max_length=200, null=True)
 
     def __str__(self):
-        return f"{str(self.id)}"
+        return str(self.id)
 
     @property
     def shipping(self):
@@ -86,8 +87,8 @@ class OrderItem(models.Model):
         return total
 
     def __str__(self):
-        return f"Product : {str(self.product)}, Order ID : {str(self.order)}, Quantity : {str(self.quantity)}, Order Date : {str(self.date_added)}"
-
+        # return f"Product : {str(self.product)}, Order ID : {str(self.order)}, Quantity : {str(self.quantity)}, Order Date : {str(self.date_added)}"
+        return str(self.product)
 
 class ShippingAddress(models.Model):
     customer = models.ForeignKey(
@@ -100,7 +101,8 @@ class ShippingAddress(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.address}, {self.city}, {self.state}, {self.zipcode}"
+        # return f"{self.address}, {self.city}, {self.state}, {self.zipcode}"
+        return self.address, self.city, self.state, self.zipcode
 
 
 class Offer(models.Model):
