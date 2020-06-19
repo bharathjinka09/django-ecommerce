@@ -14,7 +14,7 @@ class Customer(models.Model):
     phone = models.CharField(max_length=200, null=True)
     profile_pic = models.ImageField(
         default='profile1.png', null=True, blank=True)
-    device = models.CharField(max_length=200, null=True)
+    # device = models.CharField(max_length=200, null=True)
 
     def __str__(self):
         return str(self.name)
