@@ -10,47 +10,44 @@ from .models import *
 from .utils import cookieCart, cartData, guestOrder
 from .filters import ProductFilter
 from .forms import CustomerForm
-# Create your views here.
 
 
 def store(request):
 
+    filtered_products = ProductFilter(
+        request.GET,
+        queryset=Product.objects.all()
+    )
+
     data = cartData(request)
     cartItems = data['cartItems']
 
-    # product = Product.objects.get(id=id)
-
     products = Product.objects.all()
-    page = request.GET.get('page', 1)
 
     offer_messages = Offer.objects.all()
 
-    # products_list = Product.objects.all().order_by('id')
-    paginator = Paginator(products, 3)
-    try:
-        products_page = paginator.page(page)
-    except PageNotAnInteger:
-        products_page = paginator.page(1)
-    except EmptyPage:
-        products_page = paginator.page(paginator.num_pages)
-
-    # Filter products
-    myFilter = ProductFilter(request.GET, queryset=products)
-    products = myFilter.qs
+    paginated_filtered_products = Paginator(filtered_products.qs, 3)
+    page_number = request.GET.get('page')
+    product_page_obj = paginated_filtered_products.get_page(page_number)
 
     # messages.success(request, 'Item added to cart')
 
-
-    context = {'products': products,
+    context = {'product_page_obj': product_page_obj,
+               'filtered_products': filtered_products,
+               'products': products,
                'offer_messages': offer_messages,
-               'products_page': products_page,
-               # 'products_list': products_list,
-               'cartItems': cartItems, 'myFilter': myFilter}
+               'cartItems': cartItems,
+               }
+
     return render(request, 'store/store.html', context)
 
-def logout_user(request):
 
-    return render(request, 'store/logout_user.html')
+def logout_user(request):
+    data = cartData(request)
+    cartItems = data['cartItems']
+    context = {'cartItems': cartItems}
+
+    return render(request, 'store/logout_user.html', context)
 
 
 def product_detail(request, id):
@@ -85,8 +82,8 @@ def get_user_profile(request):
     customer_orders = OrderItem.objects.filter(id=request.user.id)
     order_status = Order.objects.filter(id=request.user.id)
 
-    context = {'items': items, 'order': order, 'order_status':order_status,
-               'cartItems': cartItems, 'customer_orders':customer_orders,
+    context = {'items': items, 'order': order, 'order_status': order_status,
+               'cartItems': cartItems, 'customer_orders': customer_orders,
                'form': form, 'shipping_address': shipping_address}
 
     return render(request, 'store/user_profile.html', context)
@@ -143,10 +140,6 @@ def updateItem(request):
     return JsonResponse('Item was added', safe=False)
 
 
-# from django.views.decorators.csrf import csrf_exempt
-
-
-# @csrf_exempt
 def processOrder(request):
     transaction_id = datetime.datetime.now().timestamp()
     data = json.loads(request.body)

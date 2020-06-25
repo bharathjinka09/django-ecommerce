@@ -3,6 +3,8 @@
 
 {% block content %}
 
+{% load store_extras %}
+
     <div class="mt-5">
     {% for offer_message in offer_messages %}
         
@@ -18,16 +20,11 @@
   <form method="get">
     <br>
     <div style="display:flex;">
-      {{myFilter.form}} <br>
+      {{filtered_products.form}} <br>
       <button type="submit" style="height: 5%;" class="btn btn-outline-primary">
         <i class="fa fa-search"></i>
       </button>
     </div>
-    <!-- <div style="display: flex;">
-      <input type="text" class="form-control" name="search" placeholder="Search Products">
-      <a href="/"><button class="btn btn-outline-primary" style="border-radius: 10px;">Search</button></a>
-    </div> -->
-
   </form>
 <br>
   <div class="bd-example">
@@ -86,7 +83,7 @@
   </div>
 <br>
 <div class="row">
-  {% for product in products %}
+  {% for product in product_page_obj %}
     <div class="col-lg-4">
       <img class="thumbnail" src="{{product.imageURL}}" />
       <div class="box-element product">
@@ -103,32 +100,40 @@
 </div>
 <br>
  
-<!-- {% if products_page.has_other_pages %}
-      <ul class="pagination">
-        {% if products_page.has_previous %}
-          <li><a class="page-link" href="?page={{ products_page.previous_page_number }}">Prev</a></li>
-        {% else %}
-          <li class="page-link"><span>&laquo;</span></li>
-        {% endif %}
-        {% for i in products_page.paginator.page_range %}
-          {% if products_page.number == i %}
-            <li class="p-2 bg-success text-white"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
-          {% else %}
-            <li><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+<ul class="pagination">
+        <li class="page-item">
+            {% if product_page_obj.has_previous %}
+                <a class="page-link" href="{% my_url 1 'page' request.GET.urlencode %}">First</a>
+                <a class="page-link" href="{% my_url product_page_obj.previous_page_number 'page' request.GET.urlencode %}">Previous</a>
+            {% endif %}
+        </li>
 
-          {% endif %}
-        {% endfor %}
-        {% if products_page.has_next %}
-          <li><a class="page-link" href="?page={{ products_page.next_page_number }}">Next</a></li>
-        {% else %}
-          <li class="page-link"><span>&raquo;</span></li>
-        {% endif %}
-      </ul>
-    {% endif %} 
- -->
+        <!-- <li class="page-item">
+            <a class="page-link">Page {{person_page_obj.number}} of {{person_page_obj.paginator.num_pages}}.
+            </a>
+        </li> -->
+
+        <li class="page-item">
+            <a class="page-link" href="{% my_url product_page_obj.number 'page' request.GET.urlencode %}">{{product_page_obj.number}}
+            </a>
+        </li>
+
+        <li>
+            {% if product_page_obj.has_next %}
+                <a class="page-link" href="{% my_url product_page_obj.next_page_number 'page' request.GET.urlencode %}">Next</a>
+                <a class="page-link" href="{% my_url product_page_obj.paginator.num_pages 'page' request.GET.urlencode %}">Last</a>
+            {% endif %}
+        </li>
+    </ul>
+
 <script type="text/javascript">
   search_form = document.getElementById('id_name');
   search_form.classList.add("form-control");
+
+  // search_form_label = document.querySelector('label');
+  // search_form_label.classList.add("d-none");
+
+
 </script>
 
 

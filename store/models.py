@@ -27,10 +27,10 @@ class Product(models.Model):
     digital = models.BooleanField(default=False, null=True, blank=False)
     image = models.ImageField(null=True, blank=True)
     description = HTMLField(max_length=300, null=True, blank=True)
-    
+
     class Meta:
-       ordering = ['-id']
-    
+        ordering = ['-id']
+
     def __str__(self):
         return str(self.name)
 
@@ -89,6 +89,7 @@ class OrderItem(models.Model):
     def __str__(self):
         # return f"Product : {str(self.product)}, Order ID : {str(self.order)}, Quantity : {str(self.quantity)}, Order Date : {str(self.date_added)}"
         return str(self.product)
+
 
 class ShippingAddress(models.Model):
     customer = models.ForeignKey(
