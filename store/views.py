@@ -12,6 +12,15 @@ from .filters import ProductFilter
 from .forms import CustomerForm
 
 
+def autocomplete(request):
+    if 'term' in request.GET:
+        qs = Product.objects.filter(name__icontains=request.GET.get('term'))
+        names = list()
+        for product in qs:
+            names.append(product.name)
+        return JsonResponse(names, safe=False)
+    return render(request, 'store/store.html')
+
 def store(request):
 
     filtered_products = ProductFilter(
@@ -22,7 +31,10 @@ def store(request):
     data = cartData(request)
     cartItems = data['cartItems']
 
-    products = Product.objects.all()
+    # product_list = []
+    # products = Product.objects.filter(name=request.GET)
+    # for product in products:
+    #     product_list.append(product)
 
     offer_messages = Offer.objects.all()
 
@@ -34,7 +46,6 @@ def store(request):
 
     context = {'product_page_obj': product_page_obj,
                'filtered_products': filtered_products,
-               'products': products,
                'offer_messages': offer_messages,
                'cartItems': cartItems,
                }
