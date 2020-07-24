@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
+{% load pwa %}
+
 <html>
   <head>
     <title>Bharath E-Commerce Store</title>
@@ -20,6 +22,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
     />
+
+    {% progressive_web_app_meta %}
 
     <script type="text/javascript">
       var user = '{{request.user}}'

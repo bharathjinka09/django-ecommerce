@@ -24,6 +24,8 @@ urlpatterns = [
     # path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('allauth.urls')),    
     path('', include('store.urls')),
+    path('', include('pwa.urls')),  # You MUST use an empty string as the URL prefix
+
 
 ]
 
