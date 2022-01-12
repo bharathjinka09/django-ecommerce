@@ -16,7 +16,7 @@ idna==2.9
 importlib-metadata==1.6.1
 oauthlib==3.1.0
 Pillow==7.1.2
-pipenv==2020.6.2
+pipenv==2022.1.8
 psycopg2-binary==2.8.5
 pycodestyle==2.5.0
 python3-openid==3.1.0
